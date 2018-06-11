@@ -1,0 +1,3559 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass scrreprt
+\begin_preamble
+\usepackage{color,xcolor}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\rightmargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Cover/FE-Logo.png
+	height 3cm
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figures/Cover/CU-Pharonic Logo3.jpg
+	lyxscale 50
+	height 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{centering}%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace 1cm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\size huge
+Graduation Project 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size largest
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\size largest
+Write here the name of the project
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size largest
+Submitted to:
+\end_layout
+
+\begin_layout Standard
+
+\size huge
+Prof.
+ Osama
+\end_layout
+
+\begin_layout Standard
+
+\size huge
+Prof.
+ Gamal
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size larger
+By
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size huge
+Al-Sayed Azzat
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+Sec: 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+B.N : 19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size huge
+Abdel-Kareem Shehata
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+Sec: 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+B.N : 32
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size huge
+Fatma Khalil
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+Sec: 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+B.N : 3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size huge
+Mustafa Mahmoud
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+Sec: 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+B.N : 28
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size huge
+Yara Omar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+Sec: 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+\begin_inset space \qquad{}
+\end_inset
+
+B.N : 36
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size largest
+AEROSPACE ENGINEERING DEPARTMENT,
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size largest
+FACULTY OF ENGINEERING,
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size largest
+CAIRO UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+July, 2018
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+end{centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Chapter*
+Table of Contents
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+newcontentsname}{Table of Contents}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+newcontentsname}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Chapter*
+List of Tables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+listtablename}{List of Tables}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+listtablename}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Chapter*
+List of Figures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+listfigurename}{List of Figures}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+listfigurename}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Chapter*
+List of Codes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+newlstlistingname}{Code}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+newlstlistlistingname}{List of 
+\backslash
+newlstlistingname s}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+lstlistlistingname}{
+\backslash
+newlstlistlistingname} %This is for pure English
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+newlstlistlistingname}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand lstlistoflistings
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Drones in Business
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Drones are taking off across all business sectors.according to pwc 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+pwc is a multinational professional services network corporation,which focuses
+ on audit and assurance, tax and consulting services.
+ they help resolve complex issues and identify opportunities.
+\end_layout
+
+\end_inset
+
+, it is estimated that the total addressable value of drone powered solutions
+ in all applicable industries is estimated at over $127bn.
+ The industry with the best prospects for drone applications is infrastructure,
+ with total addressable value of just over $45bn.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/table_PWC.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PwC' Survey results
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bworld"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Applicable Applications in Egypt 
+\end_layout
+
+\begin_layout Subsection
+Using drones in Percision Agriculture
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Agricultural drones have been changing the face of farming and cultivation
+ heavily the past 3-5 years, and completely changing the way that many farmers
+ and other entities go about their business.
+ This drones have the ability to check storm damage, monitor crop progress,
+ and make sure that both crops and herds are healthy.
+\end_layout
+
+\begin_layout Standard
+Precision agriculture is a farming management concept that uses drones for
+ agriculture to measure, observe, and respond to variability found in crops.
+\end_layout
+
+\begin_layout Standard
+When you implement all of the new technology that is available out there
+ including drones in agriculture, you can apply resources (even if limited),
+ to make sure that the farm has a very maximum yield.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/PA 1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fertilizers spreading drone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Applications
+\end_layout
+
+\begin_layout Paragraph
+Crop Health
+\end_layout
+
+\begin_layout Standard
+It is no secret that there is a strong need for increased agricultural productio
+n given the increase expected in population around the globe.
+ There are finite agriculture resources and growers are expected to produce
+ more with less.
+ The need for improved management practices is acute.
+ In order to implement improved practices reliable, timely, and actionable
+ data is required.
+ Enter inseason on-demand aerial imagery.
+\end_layout
+
+\begin_layout Standard
+Aerial imagery is used by consultants (CCAs, scouts, agronomists), cooperatives,
+ and agriculture service providers to assist in calculating the economic
+ differences between the “good” and “bad” crop condition zones enabling
+ improved management decisions.
+ Often times, determining crop health without the “bird’s eye view” from
+ aerial imagery is difficult.
+\end_layout
+
+\begin_layout Standard
+One of the main image types to determine crop health is the Near Infrared
+ (NIR) image.
+ The NIR is most effective to determine the vegetative health of the crop
+ as the other imagery bands (Red, Blue, Green) are “absorbed” by the plant
+ to create food.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/PA 2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Reflection of light on plant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The NIR band used in conjunction with the red band is utilized to create
+ a vegetation index commonly called a Normalized Difference Vegetation Index
+ (NDVI).
+\end_layout
+
+\begin_layout Standard
+The NDVI provides quantitative information on the health of the crop in
+ the field.
+ The green colored zones have the most robust and volume of vegetation while
+ the yellow and red zones represent less vegetation.
+ This information can be used to make management decisions on the application
+ of inputs like fertilizer and fungicide.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/PA 3.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NDVI formula
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/PA 4.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NDVI image example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Compaction
+\end_layout
+
+\begin_layout Standard
+The term “soil compaction” refers to a change in state of the soil that
+ increases its bulk density.
+ Soil compaction is becoming more and more important due to the fact that:
+\end_layout
+
+\begin_layout Itemize
+Equipment is larger 
+\end_layout
+
+\begin_layout Itemize
+Uncontrolled traffic 
+\end_layout
+
+\begin_layout Itemize
+Earlier field operations
+\end_layout
+
+\begin_layout Itemize
+Operating on wet soils
+\end_layout
+
+\begin_layout Standard
+Identifying compacted areas within a field with the naked eye is difficult
+ and compaction is a difficult variable to measure from the ground without
+ equipment (eg soil penetrometer) and high labor costs.
+\end_layout
+
+\begin_layout Standard
+If a soil is over-compacted there is significant risk of yield reductions
+ as compacted soils affect both soil and plant growth alike:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Effects On Soil
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Effects on Plant Growth
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Porosity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Root growt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aeration 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nutrient uptake
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Structure
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Water Infiltration/Utilization
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aerial imagery shows subtle patterns of soil compaction that are almost
+ impossible to see from the ground.
+ By comparing patterns of traffic and irregular crop growth, problem areas
+ due to compaction are easily identifiable.
+ In Figure 1 above, the red areas on the north side of the field showed
+ yield losses of 45-65 bushels per acre while the red strip on the east
+ side showed yield losses of 20-30 bushels per acre
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/Graduation project/Documentation/Report 1-18-9-2017/PA 5.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NDVI showing effects of compaction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Variable rate application
+\end_layout
+
+\begin_layout Standard
+Variable rate application (VRA) is the method of applying varying rates
+ of inputs in the appropriate zones within an individual field.
+ The ultimate goals of VRA are:
+\end_layout
+
+\begin_layout Itemize
+Maximize farm profitability 
+\end_layout
+
+\begin_layout Itemize
+Increase efficiencies in the application of crop inputs
+\end_layout
+
+\begin_layout Itemize
+Ensure environmental safety and sustainability
+\end_layout
+
+\begin_layout Standard
+The management of in-season nitrogen application(s) is a critical component
+ to land management.
+ Mismanagement can result in yield loss and negative impacts to the environment.
+ Given this importance, companies and individuals alike are turning toward
+ aerial imagery as a means to develop nitrogen management zones and the
+ corresponding VRA.
+ The economical nitrogen rate can vary substantially within individual fields.
+ It is difficult to assess these differences in a timely manner without
+ the use of remote sensing.
+ An aerial image, when analyzed appropriately, can provide the agronomist
+ with key insights on the crop.
+ For example, the near-infrared (NIR) light reflecting off a nitrogen stressed
+ corn crop is quite less than a non-nitrogen stressed crop.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/Graduation project/Documentation/Report 1-18-9-2017/PA 6.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+True color and NIR showing nitrogen stress
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Once aerial images have been utilized to target scouting efforts, a VRA
+ fertilization file can be created using precision agriculture software
+ (ie Mapshots, SST, AgFleet, etc…) Another application of aerial imagery
+ for VRA is using the bare soil image to create zones to apply soil nutrients
+ and/or amendments.
+ Whether you are looking at VR seeding, VRA for fertilization, or VRA for
+ herbicide/fungicide and aerial image is the data layer to use to enable
+ better management decisions and increase profitability.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/PA 7.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+VRA image
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Case Studies
+\end_layout
+
+\begin_layout Paragraph
+Cotton
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Farmers apply herbicides uniformly across fields before planting to ensure
+ good field conditions for planting
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI imagery to identify weeded areas, Apply herbicide only in weeded
+ areas or intensify herbicide applications in heavily weeded areas.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Weeded areas 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Planter malfunction
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Malfunctioning planter can cause 100% loss in nonplanted areas, but such
+ areas can be difficult to locate and quantify.
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use imagery to Identify areas to re-plant
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Nonplanted areas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Targeted insecticide applications(plant bugs)
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Farmers generally apply insecticides uniformly, although early stage plant
+ bugs generally only attack high vigor areas
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI imagery to identify high vigor areas, thus applying insecticide
+ where needed
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS3.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+High vigor areas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Fertilizer second application
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Farmers generally make second nitrogen application uniformly or based on
+ soil maps, where NDVI imagery may provide better representation of nitrogen
+ needs
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI imagery to provide accurate assessment of relative vigor in field
+ to develop fertilizer zones
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS4.png
+	lyxscale 50
+	width 50cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NDVI zoning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Center pivot emitter failure
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Plugged center pivot emitters not visible by visual inspection, but revealed
+ through NDVI and Thermal Imagery
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Repair plugged sprinklers
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS5.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Plugged center pivot emitters zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Inefficient furrow irrigation
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Furrows do not flow efficiently, resulting in uneven application of irrigation
+ water.
+ Difficult to assess from the ground with naked eye, but thermal and NDVI
+ imagery enable problem areas to be identified and repaired
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Repair furrow irrigation efficiencies
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS6.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Inefficient furrow irrigation zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Targeted insecticide application (spider mites)
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Farmers generally do not apply insecticides, unless scouting identifies
+ a problem, NDVI imagery enable problem areas to be identified and sprayed
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI imagery to identify infested areas, thus applying insecticide when
+ needed
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS7.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spider mites zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Targeted weed control
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Scouts currently sample the field randomly to discover potential issues
+ or to assess crops.
+ Aerial imagery allows for targeted scouting.
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Identify areas for scout to visit to discover issues or accurately assess
+ crop, allowing for targeted pest and weed applications
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS8.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Targeted weed zone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Plant growth regulator
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Field grows unevenly, necessitating variable applications of PGRs in different
+ areas of field
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Identify PGR application zones, Apply different rates of PGR in different
+ zonested pest and weed applications
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS9.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Unevenly planted zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Defoliant application
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Field matures unevenly, resulting in difficult balance between defoliant
+ efficacy, yield levels, and harvest requirements
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Time defoliant application to achieve maximum efficacy to achieve optimal
+ yields and lint quality
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS10.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Unevenly matured zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Soil amendments
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Soils greatly affect yield and value, but it is very difficult to discern
+ geospatial distribution of soils without aerial imagery
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Infrared and NDVI imagery highlights differing soil types, allowing for
+ targeted soil amendments
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS11.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Differing soil types zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+powdery mildew
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Scouts randomly scout the vineyard for powdery mildew colonies throughout
+ the season
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+NDVI imagery highlights high-vigor areas that are susceptible to powdery
+ mildew, enabling targeted scouting, treatments or thinning.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS12.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Infected powdery mildew zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Diseases control
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Diseases can adversely affect yield, but diseased areas can be be difficult
+ to identify
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI imagery to identify infected areas, thus applying fungicide when
+ and where needed
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS13.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Infected zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Weed control
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Weeds can adversely affect yield, but weedy areas can be be difficult to
+ locate and target
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI imagery to identify weedy areas, thus applying herbicides when
+ and where needed
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS14.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Weedy zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Irrigation leaks
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Irrigation systems leak, causing excess vine vigor which diminishes grape
+ quality and thus adversely affects price.
+ Irrigation leaks are difficult to identify without aerial imagery.
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use thermal and NDVI imagery to identify irrigation leaks to be repaired,
+ resulting in higher grape quality across vineyard
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS15.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Irrigation systems leak zones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Irrigation optimization
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Uneven field vigor results in sub-optimal irrigation deliveries (i.e., some
+ parts of vineyard get too much water, other parts get too little)
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI to create irrigation zones, enabling differential irrigation to
+ ensure appropriate irrigation applications in each part of vineyard.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS16.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Uneven field vigor zone #1 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Harvest zones 
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Uneven field vigor results in mixed quality grape harvest.
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Use NDVI to create harvest zones, enabling differential harvesting to avoid
+ mixing high and low quality grapes.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS17.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Uneven field vigor zone #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Cover crops
+\end_layout
+
+\begin_layout Subparagraph
+Situation
+\end_layout
+
+\begin_layout Standard
+Uneven vineyard vigor results in sub-optimal cover crop planting decisions
+ (i.e., cover crop based upon average vineyard needs as opposed to cover crops
+ matching particular areas)
+\end_layout
+
+\begin_layout Subparagraph
+Action
+\end_layout
+
+\begin_layout Standard
+Create in-season vigor zones to inform off-season cover crop decisions
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/CS18.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Uneven vineyard vigor zone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Using drones in Media and Entertainment
+\end_layout
+
+\begin_layout Subsubsection
+Aerial photography
+\end_layout
+
+\begin_layout Standard
+In 2016 , An Egyptian company called “IFLY EGYPT” 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Youm7"
+
+\end_inset
+
+, started up which is specialized in developing UAVs used in aerial photography.t
+hey used drones in applications such as
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Football matches
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/football match ifly egypt.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Football match image taken by a drone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tourism industry
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/tourism  ifly egypt.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cairo tower image taken by a drone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Road traffic
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/road traffic ifly egypt.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Road traffic image taken by a drone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Challenges they have faced:
+\end_layout
+
+\begin_layout Itemize
+permissions for using RC devices 
+\end_layout
+
+\begin_layout Itemize
+Exporting a lot of advanced equipment
+\end_layout
+
+\begin_layout Itemize
+Maintenance of these equipment Local 
+\end_layout
+
+\begin_layout Itemize
+Developing for some equipment to meet the requirements
+\end_layout
+
+\begin_layout Subsubsection
+Advertising
+\end_layout
+
+\begin_layout Standard
+Intel used the squadron of drones to advertise its logo
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/intel 1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Intel image #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/intel.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Intel image #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Using drones in Search and Rescue
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Drones aren't always mentioned in the same breath as saving lives, but a
+ new report from one drone manufacturer says they should be.
+ 
+\end_layout
+
+\begin_layout Standard
+Civilian drones have been used to save at least 59 people in 18 different
+ incidents around the world since 2013, DJI, a China-based company that
+ manufacturers popular civilian drones, said in a statement on Tuesday.
+ The company added that 38 of those individuals were saved within in the
+ last 10 months thanks to rescue teams and civilians employing their unmanned
+ aerial vehicles (UAV) to aid people facing life-threatening emergencies.
+ 
+\end_layout
+
+\begin_layout Standard
+Now, DJI says a drone is saving nearly one person's life a week on average.
+\end_layout
+
+\begin_layout Subsubsection
+Saving and Rescue UAS
+\end_layout
+
+\begin_layout Paragraph
+The mission
+\end_layout
+
+\begin_layout Standard
+The initial design is a fixed wing UAS with an IR camera for night vision.
+ The UAS surfs the ocean and the Mediterranean Sea in order to search for
+ any people stuck in the middle of the sea and rescue them.
+ This can be done by installing the following devices:
+\end_layout
+
+\begin_layout Itemize
+Long Range IR PTZ system
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/sensor.jpg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+TVIP-PHX-640-100HD camera specifications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+AXIS Q8641-E PT Thermal Network Camera
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/senor2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+AXIS Q8641-E PT camera specifications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+AXIS Q8641-E lets operators choose between really slow or super-fast pan
+ (from 0.05 to 120 degrees per second) and tilt movement (from 0.05 to 65
+ degrees per second).
+ So they get smooth and jerk-free panoramic viewing when they need it and
+ can respond quickly to events.
+ The camera can be column-mounted, on poles or walls for a 360° panoramic
+ view and a ground-to-sky view from -90° to +45°.
+ It can withstand high winds when it’s in motion of up to 47-meter per second
+ (106 mph).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Detection Ranges
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/table1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+AXIS Q8641-E detection ranges
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This camera can be a better option as it has a local seller in Egypt.
+ As the camera belongs to Axis communications and has a seller “Quantum
+ Digital Technologies, Cairo”, “HitekNofal Solutions, Cairo” and “C&CC,
+ Cairo”.
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Types of UAS that can be used in search and rescue 
+\end_layout
+
+\begin_layout Subparagraph
+Fixed Wing UAS
+\end_layout
+
+\begin_layout Standard
+The first trial maybe a fixed wing UAS able to carry the payload of the
+ camera system, compatible with the battery and having a GPS system to detect
+ the one drowning in the sea and send its location to The responsible Authority
+ for saving him.
+\end_layout
+
+\begin_layout Subparagraph
+Multi-Rotor Drone 
+\end_layout
+
+\begin_layout Standard
+This design can be taken into consideration as it’s easy to manufacture.
+ This option is a better one.
+\end_layout
+
+\begin_layout Standard
+Another Function may be added to this Multi-Rotor Drone which is dropping
+ life vests and ropes to people stuck in the sea like in the following picture.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/dropVessels.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dropping life vests drone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Firefighting Drones
+\end_layout
+
+\begin_layout Standard
+In search and rescue operations, drones allow greater coverage of a search
+ area – and thermography allows rescue teams to work through the night,
+ significantly increasing the potential for success.
+ Thermal imaging cameras give teams the power to “see in total darkness,”
+ says FLIR, the global leader in thermo-graphic imaging sensors.
+ Added to that is the ability to discern figures difficult to find with
+ traditional cameras even in daylight- like one stranded hiker lost against
+ the backdrop of a snowy field.
+ This capacity is one of several reasons that law enforcement organizations
+ around the world are using drones.
+ Firefighting may provide one of the most compelling applications for drones
+ equipped with thermal imaging equipment.
+ From New York City’s famous FDNY to volunteer departments in small towns
+ around the country, fire departments are utilizing drone technology to
+ save structures and victims, and minimize risk to firefighters.
+ The aerial perspective through a thermal imaging camera allows teams to
+ pinpoint hotspots, identify victims on the scene, and quickly establish
+ a plan of attack.
+ It provides a level of visibility in the midst of a fire that is impossible
+ with the naked eye or traditional cameras.
+ (You can see how a fire looks through the lens of one of these thermo-graphic
+ tools here – experiencing a firefighters view through dark and smoke.) Drones
+ not only make firefighters more effective – they keep them safe.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/fire.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Thermal image taken by a Drone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Main components
+\end_layout
+
+\begin_layout Standard
+Drones may have the same cameras mentioned above or more accurate thermal
+ cameras for optimizing its missions.
+ But it may be designed to be Multi-Rotor Drone in order to be more flexible
+ to fly above the burnt areas.
+\end_layout
+
+\begin_layout Subsection
+Using drones in Disaster Relief and Emergency Response
+\end_layout
+
+\begin_layout Subsubsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Aerial drones are one of the most promising and powerful new technologies
+ to improve disaster response and relief operations.
+ Drones naturally complement traditional manned relief operations by helping
+ to ensure that operations can be conducted safer, faster, and more efficiently.
+\end_layout
+
+\begin_layout Standard
+When a disaster occurs, drones may be used to provide relief workers with
+ better situational awareness, locate survivors amidst the rubble, perform
+ structural analysis of damaged infrastructure, deliver needed supplies
+ and equipment, evacuate casualties, and help extinguish fires among many
+ other potential applications.
+\end_layout
+
+\begin_layout Standard
+In advance of an emergency, drones are able to assist with risk assessment,
+ mapping, and planning 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DisasterRelief"
+
+\end_inset
+
+.
+ When individuals, businesses, and communities are able to understand and
+ manage risks and plan effectively, they reduce overall damage and losses.
+ Rebuilding and recovery are then able to begin more quickly and ultimately
+ strengthening the resiliency of communities.
+\end_layout
+
+\begin_layout Standard
+Drones have long been described as optimally suited to perform the “3-D”
+ missions, often described as dirty, dull, and dangerous.
+ They can provide needed aerial data in areas considered too hazardous for
+ people on the ground or for manned aircraft operation, such as sites with
+ nuclear radiation contamination or in close proximity to wildfires.
+ Drones can also deliver needed supplies and relay Wi-Fi and cellular phone
+ service when communications are needed the most.
+\end_layout
+
+\begin_layout Standard
+Disaster relief and emergency response (DRER) efforts are inclusive of all
+ actions by first responders and subsequent aid efforts during and immediately
+ following a catastrophic event which threatens human life.The primary purpose
+ of DRER efforts is to save human lives.
+ Secondary purposes of DRER efforts are to preserve and maintain the environment
+, protect property, keep the peace, and uphold governmental authority.
+ 
+\end_layout
+
+\begin_layout Standard
+UAV systems have the potential to improve the effectiveness of DRER efforts
+ by enhancing first responder.
+\end_layout
+
+\begin_layout Standard
+Modern manned DRER systems include ground vehicles, conventional aircraft,
+ and rotorcraft capabilities and providing advanced predictive capabilities
+ and early warning.
+ A wide variety of system types of all sizes with varying capabilities already
+ exist with even more under development.
+\end_layout
+
+\begin_layout Standard
+Disasters or emergencies for which DRER UAV systems could be implemented
+ include: severe storms, tornados, hurricanes, wild fires, tsunamis, floods,
+ earthquakes, avalanches, civil disturbances, oil or chemical spills, and
+ urban disasters.
+ 
+\end_layout
+
+\begin_layout Standard
+Civil unmanned aerial vehicle systems have potential to augment disaster
+ relief and emergency response efforts.
+ Optimal design of aerial systems for such applications will lead to unmanned
+ vehicles which provide maximum potentiality for relief and emergency response
+ while accounting for public safety concerns and regulatory requirements.
+\end_layout
+
+\begin_layout Subsubsection
+Major Usage
+\end_layout
+
+\begin_layout Paragraph
+Reconnaissance and Mapping
+\end_layout
+
+\begin_layout Standard
+The need for regular mapping of disaster-prone areas cannot be overstated.
+ Flood maps help coordinate disaster response eff orts after events like
+ the Superstorm Sandy storm surge; 3D topographical mapping can help identify
+ areas prone to mudslide; high-resolution visual imaging can help first
+ responders flag critical infrastructure that needs to be secured immediately
+ after a disaster; and advances in remote sensing technology have opened
+ new possibilities in developing early warning signs for potential disasters.
+ For example, British researchers operating in Malaysia have used drones
+ to map patterns of deforestation that have been correlated with increased
+ incidences of malaria.
+ 
+\end_layout
+
+\begin_layout Standard
+Maps constructed quickly in the wake of a disaster are also useful tools
+ for identifying and assessing damage, especially when combined with images
+ of the area before a disaster.
+ For this to be most efficacious in assisting relief operations, “before”
+ maps must be very recent, while “after” maps must be created as swiftly
+ as possible.
+\end_layout
+
+\begin_layout Standard
+Unfortunately, in the aftermath of a disaster, mapping may take too long
+ using satellites or traditional manned aircraft.
+ Satellite imaging technology cannot currently penetrate cloud cover, often
+ leading to delays in image capture after extreme weather events.
+\end_layout
+
+\begin_layout Paragraph
+Structural Integrity Assessment
+\end_layout
+
+\begin_layout Standard
+Natural disasters such as earthquakes, hurricanes, tornadoes, tsunamis,
+ and floods, as well as man-made disasters such as explosions and arson,
+ can all cause immense damage to the structural integrity of buildings and
+ infrastructure.
+ Even small-scale events can cause serious damage.
+ For example, the 2011 Virginia Earthquake, though measuring only 5.8 on
+ the Richter scale, caused significant structural damage to such famous
+ landmarks as the Washington Monument and the National Cathedral.
+\end_layout
+
+\begin_layout Standard
+Assessing structural damage after a disaster comes with many potential risks.
+ Assessors may have to enter buildings in danger of collapse or access hard-to-r
+each places like the undersides of bridges.
+ Drones have proven their usefulness in assessing structural damage over
+ a wide area, locally, and even in building interiors.
+\end_layout
+
+\begin_layout Paragraph
+Chemical, Biological, Radiological, Nuclear, or Explosive (CBRNE) Events
+\end_layout
+
+\begin_layout Standard
+Heavy industry and power generation relies on hazardous chemicals and fuels,
+ including fi ssile material to create nuclear power.
+ Malfunctions in factories or power plants, accidents while transporting
+ hazardous materials, terrorism and criminal sabotage all have the potential
+ to create unexpected chemical, biological or nuclear disasters.
+ These devastating events require fast and eff ective disaster response
+ and relief eff orts, but by their nature are extremely unsafe for relief
+ workers.
+ Characteristics of CBRNE events are: •Toxic / radioactive / explosive environme
+nts.
+\end_layout
+
+\begin_layout Itemize
+Toxic / radioactive / explosive environments.
+\end_layout
+
+\begin_layout Itemize
+Unprepared / disrupted surfaces.
+\end_layout
+
+\begin_layout Itemize
+Rapidly changing environmental situations.
+ 
+\end_layout
+
+\begin_layout Itemize
+Lack of information and data on the extent of the disaster.
+\end_layout
+
+\begin_layout Standard
+Drones significantly reduce human exposure to unsafe environments while
+ providing continuous monitoring and data validation in the most extreme
+ conditions.
+ Sending drones into a CBRNE area can help rescue workers quickly and safely
+ locate sources of contamination/danger and the scope of the damage, providing
+ invaluable situational awareness.
+ Drones can also be used to repair damage, quickly deliver needed equipment
+ to disaster teams, and apply chemical retardants or dispersants.
+ Additionally, most drones can be deployed from unimproved locations, ensuring
+ that even if airfields are not present or are unusable, aircraft can still
+ be deployed to the area.
+\end_layout
+
+\begin_layout Standard
+While drones have been used primarily in post-CBRNE disaster damage assessment
+ and establishing situational awareness, the uses of drones in these environment
+s are nearly endless.
+\end_layout
+
+\begin_layout Standard
+For example, drones could have been used to distribute goods to the family
+ of Thomas Duncan, the man infected with the Ebola virus in Liberia, who
+ returned to Dallas, Texas, in fall 2014.
+\end_layout
+
+\begin_layout Standard
+Drones have many uses in the preparedness and prevention stages of disaster,
+ as well.
+ For instance, drones fitted with methane sniff ers could detect a gas leak
+ in a storage tank before it ignited.
+\end_layout
+
+\begin_layout Paragraph
+Search and Rescue Operations
+\end_layout
+
+\begin_layout Standard
+Many dynamic tactical challenges accompany search and rescue operations
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "redCross"
+
+\end_inset
+
+.
+ Searching for people or wreckage over vast areas like deserts, oceans,
+ rugged mountainous and forested terrain can be very time consuming and
+ difficult.
+ This can lead to crew fatigue, decreasing their effectiveness in searching
+ and increasing the likelihood of pilot error.
+ Furthermore, once survivors are located, many rescue / evacuation operations
+ must be carried out in hazardous environments (CBRNE, low visibility, rugged
+ terrain, etc.).
+ The use of unmanned systems in these situations allows operations to be
+ conducted without exposing a flight crew to unnecessary danger.
+ Search and rescue operations often embody the “3-D” model (Dull, Dirty,
+ Dangerous) of missions best suited to drones.
+\end_layout
+
+\begin_layout Paragraph
+Insurance Claims Response and Risk Assessment
+\end_layout
+
+\begin_layout Standard
+Insurance companies play an invaluable role in assisting disaster relief
+ efforts.
+ When people lose their homes and possessions and when businesses stuff
+ er property damage and business interruption, insurance companies are there
+ to provide them with the material support they need to begin the rebuilding
+ process.
+ Insurance coverage can help disaster-stricken areas recover much more quickly
+ and comprehensively than would have been possible otherwise.
+ For these reasons, it is imperative that insurance companies act as eff
+ actively and efficiently as possible in the wake of a disaster.
+ Insurance companies could use drones to fly over an affected area, assessing
+ damage to insured property, developing situational awareness for deploying
+ additional claims adjusters on the ground, and supporting the claims response
+ process.
+ Using drones will also reduce the inherent dangers of inspecting damaged
+ properties.
+ Drones provide more options to review properties, which otherwise would
+ be inaccessible due to safety concerns.
+\end_layout
+
+\begin_layout Paragraph
+Logistics Support
+\end_layout
+
+\begin_layout Standard
+The damage to infrastructure that occurs after major disasters is often
+ one of the most signifi cant obstacles to effi cient disaster relief.
+ Blocked roads, damaged rail, and destroyed sea and airports can severely
+ curtail disaster recovery by delaying delivery of needed supplies and equipment.
+\end_layout
+
+\begin_layout Standard
+Drones provide an alternative for logistical support after a disaster.
+ Drones can fly above destroyed infrastructure, and many, particularly rotary-wi
+ng craft, do not require runways for takeoff.
+\end_layout
+
+\begin_layout Standard
+Drone logistics support will also help disaster responders directly.
+ Any extra time that disaster responders can devote to actively mitigating
+ a disaster or searching for and rescuing survivors will save lives and
+ reduce costs.
+ Many rescue workers currently devote substantial time to establishing logistica
+l support for other responders, ferrying equipment and essential supplies
+ like food and water.
+ Drones can help speed up this process.
+\end_layout
+
+\begin_layout Subsubsection
+Advantages in Disaster Relief and Emergency Response:
+\end_layout
+
+\begin_layout Itemize
+Drone technology can reduce disaster worker exposure to unnecessary danger:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Drones function in environments that are unsafe for humans.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Drones enhance the effectiveness of responders
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In addition to relieving disaster responders from some of their most dangerous
+ duties, drones can perform dull and dirty tasks to allow responders to
+ focus on more important matters.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Drones provide unique viewing angles at low altitudes not possible from
+ manned aircraft
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For example, a team from several European universities, called NIFTi, used
+ two small rotary-wing drones to assess damage to cathedrals in Mirandola,
+ Italy, after an earthquake in 2012.
+ Such an assessment is impossible with manned systems.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Drone technology is highly deployable
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Drones, particularly small models, can be launched in a variety of environments
+ without the need for a runway.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Drone technology is cost-efficient
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While a robust drone system can require significant upfront capital cost,
+ drones are still often cheaper than manned aircraft to purchase and operate.
+ Furthermore, by developing relationships with drone service companies,
+ emergency response organizations can pay only for the tools that they need
+ before and after disasters, lowering costs.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Using drones in Wind Turbine Inspection
+\end_layout
+
+\begin_layout Standard
+Wind Turbine Inspections involve identification of defects such as: Dents,
+ Cracks, Delamination, Gel-coat degradation, Paint peel-off, Lightning Strike
+ damage, Lightning Receptor damage, Vortex Generator damage, Fiber Wrinkles,
+ Manufacturing anomalies, installation damage, etc.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/WTI.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wind Turbine inspection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Using drones in Other Applications
+\end_layout
+
+\begin_layout Itemize
+Meteorological Monitoring (Humidity – Wind – Pressure – Temperature - …..)
+ in various locations to get a Meteorological map
+\end_layout
+
+\begin_layout Itemize
+Police or Military reconnaissance Especially in mountainous areas 
+\end_layout
+
+\begin_layout Itemize
+Industrial roof inspections 
+\end_layout
+
+\begin_layout Itemize
+Surveying & Mapping
+\end_layout
+
+\begin_layout Itemize
+Solar panels inspections 
+\end_layout
+
+\begin_layout Itemize
+Civil inspection
+\end_layout
+
+\begin_layout Itemize
+Pipeline and power line inspections 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 1/PLI.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pipeline inspections
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tunnels inspections Especially narrow ones 
+\end_layout
+
+\begin_layout Itemize
+Racing Besides it can be integrated with VR (virtual reality) 
+\end_layout
+
+\begin_layout Itemize
+Internet access(Google project)
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "References/References"
+options "bibtotoc,IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
