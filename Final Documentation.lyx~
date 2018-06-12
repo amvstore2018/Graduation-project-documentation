@@ -862,7 +862,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-PwC' Survey results
+pwc' Survey results
 \begin_inset CommandInset citation
 LatexCommand cite
 key "bworld"
@@ -965,7 +965,7 @@ n given the increase expected in population around the globe.
  The need for improved management practices is acute.
  In order to implement improved practices reliable, timely, and actionable
  data is required.
- Enter inseason on-demand aerial imagery.
+ Enter in-season on-demand aerial imagery.
 \end_layout
 
 \begin_layout Standard
@@ -3501,7 +3501,7 @@ Pipeline and power line inspections
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -3542,6 +3542,2349 @@ Racing Besides it can be integrated with VR (virtual reality)
 
 \begin_layout Itemize
 Internet access(Google project)
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+We settled on precision agriculture field as it has so mush potential and
+ many befits.
+\end_layout
+
+\begin_layout Chapter
+Autopilot Overview 
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The basis for autopilot system operation is error correction.
+ When an aircraft fails to meet the conditions selected, an error is said
+ to have occurred.
+ The autopilot system automatically corrects that error and restores the
+ aircraft to the flight attitude desired by the pilot.
+ There are two basic ways modern autopilot systems do this.
+ One is position based and the other is rate based.
+ A position based autopilot manipulates the aircraft’s controls so that
+ any deviation from the desired attitude of the aircraft is corrected.
+ This is done by memorizing the desired aircraft attitude and moving the
+ control surfaces so hat the aircraft returns to that attitude.
+ Rate based autopilots use information about the rate of movement of the
+ aircraft, and move control surfaces to counter the rate of change that
+ causes the error.
+ Most large aircraft use rate-based autopilot systems.
+ Small aircraft may use either.
+\end_layout
+
+\begin_layout Standard
+Any autopilot consists of three different things
+\end_layout
+
+\begin_layout Itemize
+Guidance system
+\end_layout
+
+\begin_layout Itemize
+Control system
+\end_layout
+
+\begin_layout Itemize
+Navigation system 
+\end_layout
+
+\begin_layout Standard
+These systems aim to make the any aircraft full autonomous.
+\end_layout
+
+\begin_layout Section
+Components of an Autopilot System
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Autopiloy HW.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Components of an Autopilot System
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Professional Autopilot's Definitions
+\end_layout
+
+\begin_layout Standard
+Professional Autopilots such as ArduPilot and Pixhawk Autopilot defined
+ theses definitions (modes) so that other companies or individuals working
+ in the same field follow their standard of Autopilot 
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_01.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_02.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_03.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_04.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Guidance System
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+Guidance is defined as: The process for guiding the path of an object towards
+ a given point, which in general may be moving.
+\end_layout
+
+\begin_layout Itemize
+Determines a path to follow based on commanded signals (waypoints – altitude
+ - speed) by the operator.
+\end_layout
+
+\begin_layout Itemize
+Many methods to make a guidance system depends on what the autopilot supposed
+ to do (tracking a moving target which is time-dependent) or (follow a predefine
+d path which is time-independent).
+\end_layout
+
+\begin_layout Itemize
+The guidance system of any aerial vehicle must handle three dimensions.
+ It will be decoupled into two parts:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Horizontal(East-West)
+\end_layout
+
+\begin_layout Itemize
+Vertical(altitude)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Guidance laws are composed of speed and steering laws, which can be combined
+ in different ways to achieve different motion control objectives.but we
+ must know about the different motion control scenarios in order to find
+ what suits our application.
+\end_layout
+
+\begin_layout Subsubsection
+motion control scenarios 
+\end_layout
+
+\begin_layout Standard
+motion control scenarios are typically divided into the following categories:
+ point stabilization, trajectory tracking, and path following.
+ 
+\end_layout
+
+\begin_layout Itemize
+The control objective of a target-tracking scenario is to track the motion
+ of a target that is either stationary (analogous to point stabilization)
+ or that moves such that only its instantaneous motion is known, i.e., such
+ that no information about the future target motion is available.
+ Thus, in this case it is impossible to separate the spatio-temporal constraint
+ associated with the target into two separate constraints.
+\end_layout
+
+\begin_layout Itemize
+The control objective of a path-following scenario is to follow a predefined
+ path, which only involves a spatial constraint.
+ No restrictions are placed on the temporal propagation along the path.
+ However, the control objective of a path-tracking scenario is to track
+ a target that moves along a predefined path (analogous to trajectory tracking),
+ which means that it is possible to separate the related spatio-temporal
+ constraint into two separate constraints.
+ Often, the spatial constraint is considered more important than the temporal
+ constraint, such that if both cannot be satisfied simultaneously, the spatial
+ constraint takes precedence (i.e., to move along the path, albeit at a distance
+ behind the target).
+\end_layout
+
+\begin_layout Itemize
+The control objective of a path-maneuvering scenario is to employ knowledge
+ about vehicle maneuverability to feasibly negotiate (or somehow optimize
+ the negotiation of) a predefined path.
+ As such, path maneuvering represents a subset of path following, but is
+ less constrained than path tracking since spatial constraints always take
+ precedence over temporal constraints.
+\end_layout
+
+\begin_layout Standard
+There are three terminal guidance strategies will be presented in the following,
+ namely line of sight, pure pursuit, and constant bearing.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/LOS PP CB.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Guidance principles line of sight (LOS), pure pursuit (PP), and constant
+ bearing (CB).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Line of Sight Guidance
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Line of sight (LOS) guidance is classified as a so-called three-point guidance
+ scheme since it involves a (typically stationary) reference point in addition
+ to the interceptor and the target.
+ The LOS denotation stems from the fact that the interceptor is supposed
+ to achieve an intercept by constraining its motion along the line of sight
+ between the reference point and the target.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pure Pursuit Guidance 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Pure pursuit (PP) guidance belongs to the so-called two point guidance schemes,
+ where only the interceptor and the target are considered in the engagement
+ geometry.
+ Simply put, the interceptor is supposed to align its velocity along the
+ line of sight between the interceptor and the target.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Constant Bearing Guidance 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Constant bearing (CB) guidance is also a two-point guidance scheme, with
+ the same engagement geometry as PP guidance.
+ However, in a CB engagement the interceptor is supposed to align the relative
+ interceptor-target velocity along the line of sight between the interceptor
+ and the target.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+conclusion
+\end_layout
+
+\begin_layout Standard
+Int the end we know that the LOS guidance is what we want to use as in the
+ ground control station is supposed to be used to specify way points and
+ upload it the Guidance system.
+\end_layout
+
+\begin_layout Subsection
+Steering Laws for path following
+\end_layout
+
+\begin_layout Standard
+In LOS guidance, There are a lot of Steering laws to use according to type
+ of the path that is being followed
+\end_layout
+
+\begin_layout Itemize
+Steering Laws for Straight Lines
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Sterring path.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The main variables associated with steering laws for straight-line paths.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider a straight-line path implicitly defined by two waypoints through
+ which it passes.
+ Denote these waypoints as 
+\begin_inset Formula $p_{k}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{k+1}$
+\end_inset
+
+ , respectively.
+ Also, consider a path-fixed reference frame with origin in 
+\begin_inset Formula $p_{k}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Only the cross-track error is relevant since 
+\begin_inset Formula $e\left(t\right)$
+\end_inset
+
+ = 0 means that the vehicle has converged to the straight line.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{c}
+e\left(t\right)=-\left[x\left(t\right)-x_{K}\right]\sin\left(\alpha_{K}\right)+\left[y\left(t\right)-y_{K}\right]\cos\left(\alpha_{K}\right)\\
+\alpha_{K}:=atan2\left(y_{k+1}-y_{K},\,x_{k+1}-x_{K}\right)\\
+\underset{t\rightarrow\infty}{\lim}e\left(t\right)=0
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+there are two methods to do so
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Enclosure-Based Steering
+\end_layout
+
+\begin_layout Itemize
+Lookahead-Based Steering 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+the lookahead-based scheme has several advantages over the enclosure-based
+ approach as it's is less computationally intensive than the enclosure-based
+ approach.
+\end_layout
+
+\begin_layout Itemize
+Lookahead-Based Steering 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\varPsi_{R}=\alpha_{K}-\arctan\left(K_{P}e\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+where 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K_{p}$
+\end_inset
+
+ is just a gain 
+\end_layout
+
+\begin_layout Standard
+there are other of Steering laws for Piecewise Linear Paths , Circles and
+ Regularly Parameterized Paths.
+\end_layout
+
+\begin_layout Subsection
+Circle of Acceptance 
+\end_layout
+
+\begin_layout Standard
+Circle of acceptance is a method for knowing when to switch to the next
+ waypoint 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GuidanceSytem"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+When the aircraft is inside a circle with radius 
+\begin_inset Formula $R_{k+1}$
+\end_inset
+
+ around the point 
+\begin_inset Formula $\left[x_{k+1},y_{k+1}\right]$
+\end_inset
+
+, as can be seen in the following figure 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/COA.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Navigation in x-y plane with circle of acceptance
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Navigation-in-xy"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The guidance system should change to the next waypoint.
+ The position of the aircraft has to satisfy:
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\left[x_{k+1}-x\left(t\right)\right]^{2}+\left[y_{k+1}-y\left(t\right)\right]^{2}\leq R_{k+1}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Altitude Guidance
+\end_layout
+
+\begin_layout Standard
+First we must make sure that the multi rotor is stable then we work on controlli
+ng the altitude.
+\end_layout
+
+\begin_layout Subsection
+What we hope to do 
+\end_layout
+
+\begin_layout Standard
+The guidance system could be implemented and looks like the following figure.
+\end_layout
+
+\begin_layout Itemize
+LOS is used for calculating desired heading angle
+\end_layout
+
+\begin_layout Itemize
+the kinematic controller has been used for desired pitch angle
+\end_layout
+
+\begin_layout Itemize
+a 1st order LP filter for speed.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Block diagram of a guidance system.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Block diagram of a guidance system
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GuidanceSytem"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and we hope we could create something like this
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Navigation map.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Navigation map
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Control System
+\end_layout
+
+\begin_layout Standard
+We'll design the control system using any design methods that we studied
+ in the previous years.
+\end_layout
+
+\begin_layout Standard
+here is a summery of these methods
+\end_layout
+
+\begin_layout Subsection
+PID Controller Design
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/PID_controller.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PID controller scheme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A PID controller transfer function is 
+\begin_inset Formula 
+\[
+G_{c}(s)=K_{1}+\frac{K_{2}}{s}+K_{3}s=\frac{K_{1}s+K_{2}+K_{3}s^{2}}{s}=\frac{K_{3}(s^{2}+\frac{K_{1}}{K_{3}}s+\frac{K_{2}}{K_{3}})}{s}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which has two zeros plus a pole at the origin.
+ One zero and the pole at the origin can be designed as the ideal integral
+ compensator; the other zero can be designed as the ideal derivative compensator.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Controller Design procedure
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nise"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The design technique consists of the following steps :
+\end_layout
+
+\begin_layout Enumerate
+Model the system using Newton equations or Lagrange equations
+\end_layout
+
+\begin_layout Enumerate
+Linearize around your operating point.
+\end_layout
+
+\begin_layout Enumerate
+Take Laplace transform 
+\end_layout
+
+\begin_layout Enumerate
+Get open loop transfer function 
+\begin_inset Formula $\left(G_{open}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Evaluate the performance of the uncompensated system to determine how much
+ improvement in transient response is required.
+\end_layout
+
+\begin_layout Enumerate
+Design a P controller to meet your requirement.
+\end_layout
+
+\begin_layout Enumerate
+Simulate the system to be sure all requirements have been met.
+\end_layout
+
+\begin_layout Enumerate
+If it doesn't meet.Change the type of the controller to PI controller 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $PI=K_{p}+\frac{K_{i}}{s}=K_{p}\frac{s+\frac{K_{i}}{K_{p}}}{s}=K_{p}\frac{s+zero}{s}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Put the zero so that the phase at your required pole is -180 (Root Locus
+ condition) 
+\end_layout
+
+\begin_layout Enumerate
+Get gain so that the open loop poles move to your required pole.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The new open loop transfer function is 
+\begin_inset Formula $G_{open_{new}}=\frac{G_{open}}{s}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Simulate the system to be sure all requirements have been met.
+\end_layout
+
+\begin_layout Enumerate
+If it doesn't meet.Change the type of the controller to PID controller 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $PID=K_{p}+\frac{K_{i}}{s}+K_{d}*s=K_{d}\frac{s^{2}+\frac{K_{p}}{K_{d}}*s+\frac{K_{i}}{K_{d}}}{s}=K_{d}\frac{\left(s+zero1\right)\left(s+zero2\right)}{s}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Make each zero compensate half of the phase required 
+\end_layout
+
+\begin_layout Enumerate
+Simulate the system using nonlinear simulation.
+\end_layout
+
+\begin_layout Enumerate
+If you increased the input and the response become unstable, you should
+ linearize around a different operating point and consider using gain scheduling
+ 
+\end_layout
+
+\begin_layout Subsection
+State Feedback Controller Design
+\end_layout
+
+\begin_layout Subsubsection
+Pole Placement
+\end_layout
+
+\begin_layout Itemize
+Assume that the single-input system dynamics are given b
+\begin_inset Formula 
+\[
+\dot{x}=Ax+Bu
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=Cx+Du
+\]
+
+\end_inset
+
+and D = 0.
+\end_layout
+
+\begin_layout Itemize
+Recall that the system poles are given by eigenvalues of A.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Want to use the input u(t) to modify the eigenvalues of A to change the
+ system dynamics.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Assume a full state feedback of the form:
+\begin_inset Formula 
+\[
+u=r-Kx
+\]
+
+\end_inset
+
+where r is some reference input.
+\end_layout
+
+\begin_layout Itemize
+Find the closed loop dynamics:
+\begin_inset Formula 
+\[
+\dot{x}=Ax+B(r-Kx)=(A-BK)x+Br=A_{cl}x+Br
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=Cx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pick K so that 
+\begin_inset Formula $A_{closed}$
+\end_inset
+
+ has the desired properties.
+\end_layout
+
+\begin_layout Itemize
+Note that it's not always easy, as the issue of the controllability must
+ be checked.
+\end_layout
+
+\begin_layout Subsubsection
+Ackermann's Formula
+\end_layout
+
+\begin_layout Itemize
+Ackermann's Formula gives us a method of doing this entire design process
+ as one step.
+\begin_inset Formula 
+\[
+K=\left[\begin{array}{cccc}
+0 & ... & 0 & 1\end{array}\right]M_{c}^{-1}\varPhi_{d}(s)
+\]
+
+\end_inset
+
+where
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $M_{c}=\left[\begin{array}{cccc}
+B & AB & ... & A^{n-1}B\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\varPhi_{d}(s)$
+\end_inset
+
+ is the characteristic equation for the closed-loop poles, which we then
+ evaluate for s = A.
+\end_layout
+
+\begin_layout Itemize
+It's explicit that the system must be controllable because we are inverting
+ the controllability matrix.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Flight Qualities
+\end_layout
+
+\begin_layout Standard
+The flying qualities of an airplane are related to the stability and control
+ characteristics and can be defined as those stability and control characteristi
+cs.
+\end_layout
+
+\begin_layout Standard
+Unfortunately there is no flying qualities for multi-copters published in
+ any text book as the main focus is manned airplanes so our design points
+ be set according to our preferences.
+\end_layout
+
+\begin_layout Section
+Navigation System
+\end_layout
+
+\begin_layout Standard
+As previously said, Guidance takes care of input to the system, inputs as
+ waypoints and desired speed, and determine the desired path from the current
+ location of the aircraft to the desired waypoint.
+\end_layout
+
+\begin_layout Standard
+Guidance is often decoupled onto reference model and guidance system where
+ reference model deals with commanded signals and guidance determines the
+ path.
+ 
+\end_layout
+
+\begin_layout Standard
+Navigation determines the location and altitude of the aircraft at a given
+ time.
+\end_layout
+
+\begin_layout Standard
+The control system ensures that the aircraft follows the desired path and
+ altitude by manipulating the control surfaces.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Autopilot system scheme.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Block diagram of a guidance, navigation and control system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We should take advantage of the previous year work of INS as their work
+ have been verified.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/INS system.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+INS validation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ground Control Station
+\series bold
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ardupilot"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Introduction
+\end_layout
+
+\begin_layout Standard
+A ground station is typically a software application, running on a ground-based
+ computer, that communicates with your UAV via wireless telemetry.
+ It displays real-time data on the UAVs performance and position and can
+ serve as a virtual cockpit, showing many of the same instruments that you
+ would have if you were flying a real plane.
+ A GCS can also be used to control a UAV in flight, uploading new mission
+ commands and setting parameters.
+ It is often also use to monitor the live video stream from a UAV's cameras.
+\end_layout
+
+\begin_layout Standard
+For Desktop, there is (Mission Planner, APM Planner 2, MAVProxy, QGroundControl
+ and UgCS.
+ 
+\end_layout
+
+\begin_layout Standard
+For Tablet/Smartphone, there is Tower (DroidPlanner 3), MAVPilot, AndroPilot
+ and SidePilot that can be used to communicate with ArduPilot.
+\end_layout
+
+\begin_layout Standard
+Now we are going to talk about Mission Planner as it's a full-featured ground
+ station application for the ArduPilot open source autopilot project.
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Capabilities
+\end_layout
+
+\begin_layout Itemize
+Point-and-click waypoint entry 
+\end_layout
+
+\begin_layout Itemize
+using Google Maps/Bing/Open street maps/Custom WMS.
+ 
+\end_layout
+
+\begin_layout Itemize
+Select mission commands from drop-down menus 
+\end_layout
+
+\begin_layout Itemize
+Download mission logles and analyze them Congure APM settings for your airframe
+ 
+\end_layout
+
+\begin_layout Itemize
+Interface with a PC flight simulator to create a full hardware-in-the-loop
+ UAV simulator.
+ 
+\end_layout
+
+\begin_layout Itemize
+See the output from APM's serial terminal • With appropriate telemetry hardware
+ you can: Monitor your vehicle's status while in operation.
+ Record telemetry logs which contain much more information the the on-board
+ autopilot logs.
+ View and analyze the telemetry logs.
+ Operate your vehicle in FPV (rst person view)
+\end_layout
+
+\begin_layout Itemize
+Auto grid You can also have the Mission Planner create a mission for you,
+ which is useful for function like mapping missions, where the aircraft
+ should just go back and forth in a lawnmower pattern over an area to collect
+ photographs.
+\end_layout
+
+\begin_layout Itemize
+MAVLink protocol defines a large number of commands that the mission planners
+ uses 
+\end_layout
+
+\begin_layout Itemize
+Planning a camera mission • Setting Up Rally Points(Return yo home points)
+ 
+\end_layout
+
+\begin_layout Itemize
+Radio Control Calibration in Mission Planner
+\end_layout
+
+\begin_layout Standard
+User Interface
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Mission planner user interface.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mission planner user interface
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Example of specifying way points
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+\begin_inset Graphics
+	filename Figures/Week 2/Specifying way points.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Specifying way points
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+GCS Flight Data Screen
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/GCS Flight Data Screen #1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+GCS Flight Data Screen #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/GCS Flight Data Screen #2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+GCS Flight Data Screen #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="8cm">
+<column alignment="center" valignment="top" width="5cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+Air speed 
+\end_layout
+
+\begin_layout Enumerate
+Cross track error and turn rate (T)
+\end_layout
+
+\begin_layout Enumerate
+Heading direction 
+\end_layout
+
+\begin_layout Enumerate
+Bank angle
+\end_layout
+
+\begin_layout Enumerate
+Wireless telemetry connection (% bad packets)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.
+ GPS time 
+\end_layout
+
+\begin_layout Plain Layout
+7.
+ Altitude 
+\end_layout
+
+\begin_layout Plain Layout
+( blue bar is rate of climb ) 
+\end_layout
+
+\begin_layout Plain Layout
+8.
+ Air speed 
+\end_layout
+
+\begin_layout Plain Layout
+9.
+ Ground speed
+\end_layout
+
+\begin_layout Plain Layout
+10.
+ Battery status 
+\end_layout
+
+\begin_layout Plain Layout
+11.
+ Artificial Horizon
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Typical log file
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Typical log file.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Typical log file
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+What we hope to do
+\end_layout
+
+\begin_layout Itemize
+Connecting GCS software with the autopilot and making configuring waypoints
+ and upload them to the aircraft through the communication system.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/AscTec-Navigator_functional-matrices.jpg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Waypoints specified map
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Telemetry
+\end_layout
+
+\begin_layout Subsection
+Introduction 
+\end_layout
+
+\begin_layout Standard
+Telemetry is what you use to send and receive data between your drone and
+ your ground station.
+ Adding telemetry to your drone is very useful, but is not always necessary.
+\end_layout
+
+\begin_layout Standard
+Telemetry modules are the actual radio devices that transmit and receive
+ the data.
+ You will have one onboard your drone, and one on the ground plugged onto
+ your ground station device.
+ The most important thing when using telemetry modules for your given autopilot,
+ is that they will often need to be paired together so they can communicate.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Telemetry module.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Telemetry module
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Drones in Precision Agriculture
+\end_layout
+
+\begin_layout Standard
+Drones can to capture aerial images of the crops or spraying fertilizers.
+\end_layout
+
+\begin_layout Section
+Aerial Images Applications
+\begin_inset CommandInset citation
+LatexCommand cite
+key "precisionmapper"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We try to answer the question of 
+\begin_inset Quotes eld
+\end_inset
+
+What we gonna extract from the aerial photos that will be taken by a camera
+ ?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The answer must depend on the type of sensor attached to the camera.
+\end_layout
+
+\begin_layout Subsection
+Enhanced Normalized Difference Vegetation Index 
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: BGNIR
+\end_layout
+
+\begin_layout Itemize
+Description: ENDVI is a close equivalent and modified version of NDVI, designed
+ for low altitude monitoring systems, such as UAVs.
+ ENDVI is an indicator of live green vegetation, and can be used for crops
+ in all growth stages.
+\end_layout
+
+\begin_layout Subsection
+Green Normalized Difference Vegetation Index 
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: BGNIR
+\end_layout
+
+\begin_layout Itemize
+Description: GNDVI is a modified version of the NDVI to be more sensitive
+ to the variation of chlorophyll content in the crop.
+ It is useful for assessing the canopy variation in biomass, and is an indicator
+ of senescence in case of stress or late maturity stage.
+ This index can be used to analyze crops in mid to late growth stages.
+\end_layout
+
+\begin_layout Subsection
+Difference Vegetation Index
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EUMeTrain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: RGNIR
+\end_layout
+
+\begin_layout Itemize
+Description: DVI is a simple vegetation index, and distinguishes between
+ the soil and vegetation.
+ This index can be used for crops in all growth stages.
+\end_layout
+
+\begin_layout Subsection
+Field Uniformity Tool 
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: BGNIR, RGNIR, RGB
+\end_layout
+
+\begin_layout Itemize
+Description: The Field Uniformity Tool makes it possible to quantify plot-level
+ statistics on plant count, height, vigor, leaf area and canopy cover.
+ Drawing data from your other licensed algorithms (Row-Based Plant Counting
+ Tool, Plant Height, Canopy Cover, Leaf Area and Vegetation Indices) , it
+ calculates the maximum, minimum, mean and standard deviation for each plot
+ or user-defined grid cell.
+ 
+\end_layout
+
+\begin_layout Subsection
+Optimized Soil Adjusted Vegetation Index 
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: RGNIR
+\end_layout
+
+\begin_layout Itemize
+Description: OSAVI is a simplified version of SAVI to minimize the influence
+ of soil brightness.
+ This index is recommended to analyze crops in early to mid growth stages,
+ in areas with relatively sparse vegetation where soil is visible through
+ the canopy.
+\end_layout
+
+\begin_layout Subsection
+Green Leaf Index
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: RGB
+\end_layout
+
+\begin_layout Itemize
+Description: GLI was designed to adjust for the greeness and yellowness
+ of the crop, and was designed for low altitude monitoring systems, such
+ as UAVs.
+ This index can be used for crops in all growth stages.
+\end_layout
+
+\begin_layout Subsection
+Visual NDVI 
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: RGB
+\end_layout
+
+\begin_layout Itemize
+Description: Visual NDVI, also known as NGRDI, is an indicator of surface
+ greenness and it is an index to detect live green plant canopies.
+ This index can be used to analyze crops in all growth stages.
+\end_layout
+
+\begin_layout Subsection
+Visible atmospherically resistant index 
+\end_layout
+
+\begin_layout Itemize
+Supported Sensors: RGB
+\end_layout
+
+\begin_layout Itemize
+Description: VARI was designed to introduce an atmospheric correction and
+ is a good index to estimate the vegetation fraction from the visible range
+ of the spectrum.
+ This index can be used to analyze crops in all growth stages.
+\end_layout
+
+\begin_layout Subsection
+Conclusion 
+\end_layout
+
+\begin_layout Standard
+We concluded that a single image can give different information whether
+ it's RGB image or NIR image but NIR is more valuable as vegetation stress
+ occurs in the NIR region first.
+\end_layout
+
+\begin_layout Section
+Multi-Spectral Cameras 
+\end_layout
+
+\begin_layout Standard
+The following cameras are mainly used in precision agriculture.
+\end_layout
+
+\begin_layout Subsection
+Parrot SEQUOIA 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Parrot_SEQUOIA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Parrot SEQUOIA .jpg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Parrot SEQUOIA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sequoia captures information from both visible and invisible light, providing
+ data to optimally monitor the health and vigor of your crops.
+\end_layout
+
+\begin_layout Standard
+Price: $3500 USD
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Parrot SEQUOIA  specifcations.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Parrot SEQUOIA's specifications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+MicaSense RedEdge
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RedEdge"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/MicaSense RedEdge.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+MicaSense RedEdge
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+RedEdge is a rugged, built-to-last, professional multispectral sensor that
+ captures specific wavebands needed for accurate plant health analysis.
+ With various integration options, it’s also one of the most flexible solutions
+ on the market.
+ Additionally, optimized GSD, a downwelling light sensor, a low power requiremen
+t, and a global shutter for distortion-free images make this sensor the
+ multispectral powerhouse.
+\end_layout
+
+\begin_layout Standard
+Price: $5195 USD
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/RedEdge specifcations.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+MicaSense RedEdge's specifications 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sequoia Vs RedEdge 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ParrotSequoia_vs_Red"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sequoia and RedEdge are both powerful multispectral sensors with the capability
+ to yield accurate and calibrated results.
+ Sequoia is simple to operate, fully capable yet lightweight and cost-effective.
+ The additional band (blue), improved GSD, and multiple integration options
+ make RedEdge an ideal solution for research and advanced integrations.
+\end_layout
+
+\begin_layout Subsection
+The Sentera Double 4K
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sentera"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Sentera Double 4K is a small, fully customizable twin-imager sensor
+ that is universally compatible with any UAV.
+\end_layout
+
+\begin_layout Standard
+Fitting in the footprint of a GoPro® HERO 4, the rugged, high-throughput
+ Double 4K Sensor is designed for use in harsh environments with configuration
+ options that make it ideal for use in agriculture and infrastructure inspection
+ applications.
+\end_layout
+
+\begin_layout Standard
+The camera is capable of capturing high-megapixel color stills, near-infrared
+ (NIR), and normalized difference vegetation index (NDVI) data, and 4K video.
+\end_layout
+
+\begin_layout Standard
+Price: $1999-$2949 USD
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Sentera.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The Sentera Double 4K
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hyper-Spectral Cameras 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_07.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_08.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_09.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Thermal Cameras 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_11.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+High Resolution Cameras
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Multicopter-system_12.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Images Analysis Software
+\end_layout
+
+\begin_layout Subsection
+Software On Server 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "precisionmapper"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+there are some websites that offer some tools on their server for free
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Basic tools.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Basic free services 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and other services are availabl according to their price plan
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/price plan.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Price plan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Mechanical Design
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Mechanical-Design_01.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Mechanical-Design_02.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Mechanical-Design_03.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 2/Mechanical-Design_04.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Different professional multi-copters
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dji"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Mechanical-Design_05.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Mechanical-Design_06.emf
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Figures/Week 2/Mechanical-Design_07.emf
+	width 15cm
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
