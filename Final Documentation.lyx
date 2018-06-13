@@ -887,7 +887,7 @@ Applicable Applications in Egypt
 \end_layout
 
 \begin_layout Subsection
-Using drones in Percision Agriculture
+Using drones in Precision Agriculture
 \end_layout
 
 \begin_layout Subsubsection
@@ -3549,8 +3549,9 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-We settled on precision agriculture field as it has so mush potential and
- many befits.
+We settled on precision agriculture field as it has so mush potential whether
+ or not drones are used to capture aerial images of the crops or spraying
+ fertilizers, the two applications have so many benefits.
 \end_layout
 
 \begin_layout Chapter
@@ -3740,7 +3741,7 @@ Guidance laws are composed of speed and steering laws, which can be combined
  what suits our application.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph
 motion control scenarios 
 \end_layout
 
@@ -3878,7 +3879,7 @@ Int the end we know that the LOS guidance is what we want to use as in the
  upload it the Guidance system.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Steering Laws for path following
 \end_layout
 
@@ -4020,7 +4021,7 @@ there are other of Steering laws for Piecewise Linear Paths , Circles and
  Regularly Parameterized Paths.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Circle of Acceptance 
 \end_layout
 
@@ -4053,7 +4054,7 @@ When the aircraft is inside a circle with radius
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -4072,13 +4073,6 @@ status open
 
 \begin_layout Plain Layout
 Navigation in x-y plane with circle of acceptance
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Navigation-in-xy"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -4119,7 +4113,7 @@ The guidance system should change to the next waypoint.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Altitude Guidance
 \end_layout
 
@@ -4128,7 +4122,7 @@ First we must make sure that the multi rotor is stable then we work on controlli
 ng the altitude.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 What we hope to do 
 \end_layout
 
@@ -4244,7 +4238,7 @@ We'll design the control system using any design methods that we studied
 here is a summery of these methods
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 PID Controller Design
 \end_layout
 
@@ -4303,7 +4297,7 @@ which has two zeros plus a pole at the origin.
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Paragraph
 Controller Design procedure
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -4413,11 +4407,11 @@ If you increased the input and the response become unstable, you should
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 State Feedback Controller Design
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Pole Placement
 \end_layout
 
@@ -4497,7 +4491,7 @@ Note that it's not always easy, as the issue of the controllability must
  be checked.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subparagraph
 Ackermann's Formula
 \end_layout
 
@@ -4542,7 +4536,7 @@ It's explicit that the system must be controllable because we are inverting
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Paragraph
 Flight Qualities
 \end_layout
 
@@ -4766,7 +4760,7 @@ Planning a camera mission • Setting Up Rally Points(Return yo home points)
 Radio Control Calibration in Mission Planner
 \end_layout
 
-\begin_layout Standard
+\begin_layout Paragraph
 User Interface
 \end_layout
 
@@ -4806,57 +4800,7 @@ Mission planner user interface
 
 \end_layout
 
-\begin_layout Standard
-
-\series medium
-Example of specifying way points
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-
-\series bold
-\begin_inset Graphics
-	filename Figures/Week 2/Specifying way points.png
-	lyxscale 50
-	width 15cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\series bold
-Specifying way points
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Paragraph
 GCS Flight Data Screen
 \end_layout
 
@@ -5020,7 +4964,7 @@ Wireless telemetry connection (% bad packets)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Paragraph
 Typical log file
 \end_layout
 
@@ -5060,7 +5004,7 @@ Typical log file
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 What we hope to do
 \end_layout
 
@@ -5165,15 +5109,27 @@ Telemetry module
 \end_layout
 
 \begin_layout Chapter
-Drones in Precision Agriculture
-\end_layout
-
-\begin_layout Standard
-Drones can to capture aerial images of the crops or spraying fertilizers.
+Drone Use in Aerial Images Application
 \end_layout
 
 \begin_layout Section
-Aerial Images Applications
+Introduction
+\end_layout
+
+\begin_layout Standard
+vegetation index is a simple graphical indicator that can be used to analyze
+ remote sensing measurements, typically, but not necessarily, from a space
+ platform, and assess whether the target being observed contains live green
+ vegetation or not.
+\end_layout
+
+\begin_layout Standard
+There are many indexes that can be used to extract valuable information
+ from captured images Here are some of them : 
+\end_layout
+
+\begin_layout Itemize
+Enhanced Normalized Difference Vegetation Index 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "precisionmapper"
@@ -5183,31 +5139,7 @@ key "precisionmapper"
 
 \end_layout
 
-\begin_layout Standard
-We try to answer the question of 
-\begin_inset Quotes eld
-\end_inset
-
-What we gonna extract from the aerial photos that will be taken by a camera
- ?
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The answer must depend on the type of sensor attached to the camera.
-\end_layout
-
-\begin_layout Subsection
-Enhanced Normalized Difference Vegetation Index 
-\end_layout
-
-\begin_layout Itemize
-Supported Sensors: BGNIR
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: ENDVI is a close equivalent and modified version of NDVI, designed
  for low altitude monitoring systems, such as UAVs.
@@ -5215,14 +5147,12 @@ Description: ENDVI is a close equivalent and modified version of NDVI, designed
  in all growth stages.
 \end_layout
 
-\begin_layout Subsection
+\end_deeper
+\begin_layout Itemize
 Green Normalized Difference Vegetation Index 
 \end_layout
 
-\begin_layout Itemize
-Supported Sensors: BGNIR
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: GNDVI is a modified version of the NDVI to be more sensitive
  to the variation of chlorophyll content in the crop.
@@ -5231,7 +5161,8 @@ Description: GNDVI is a modified version of the NDVI to be more sensitive
  This index can be used to analyze crops in mid to late growth stages.
 \end_layout
 
-\begin_layout Subsection
+\end_deeper
+\begin_layout Itemize
 Difference Vegetation Index
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -5242,24 +5173,19 @@ key "EUMeTrain"
 
 \end_layout
 
-\begin_layout Itemize
-Supported Sensors: RGNIR
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: DVI is a simple vegetation index, and distinguishes between
  the soil and vegetation.
  This index can be used for crops in all growth stages.
 \end_layout
 
-\begin_layout Subsection
+\end_deeper
+\begin_layout Itemize
 Field Uniformity Tool 
 \end_layout
 
-\begin_layout Itemize
-Supported Sensors: BGNIR, RGNIR, RGB
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: The Field Uniformity Tool makes it possible to quantify plot-level
  statistics on plant count, height, vigor, leaf area and canopy cover.
@@ -5270,14 +5196,12 @@ Description: The Field Uniformity Tool makes it possible to quantify plot-level
  
 \end_layout
 
-\begin_layout Subsection
+\end_deeper
+\begin_layout Itemize
 Optimized Soil Adjusted Vegetation Index 
 \end_layout
 
-\begin_layout Itemize
-Supported Sensors: RGNIR
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: OSAVI is a simplified version of SAVI to minimize the influence
  of soil brightness.
@@ -5286,14 +5210,12 @@ Description: OSAVI is a simplified version of SAVI to minimize the influence
  the canopy.
 \end_layout
 
-\begin_layout Subsection
+\end_deeper
+\begin_layout Itemize
 Green Leaf Index
 \end_layout
 
-\begin_layout Itemize
-Supported Sensors: RGB
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: GLI was designed to adjust for the greeness and yellowness
  of the crop, and was designed for low altitude monitoring systems, such
@@ -5301,28 +5223,24 @@ Description: GLI was designed to adjust for the greeness and yellowness
  This index can be used for crops in all growth stages.
 \end_layout
 
-\begin_layout Subsection
+\end_deeper
+\begin_layout Itemize
 Visual NDVI 
 \end_layout
 
-\begin_layout Itemize
-Supported Sensors: RGB
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: Visual NDVI, also known as NGRDI, is an indicator of surface
  greenness and it is an index to detect live green plant canopies.
  This index can be used to analyze crops in all growth stages.
 \end_layout
 
-\begin_layout Subsection
+\end_deeper
+\begin_layout Itemize
 Visible atmospherically resistant index 
 \end_layout
 
-\begin_layout Itemize
-Supported Sensors: RGB
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
 Description: VARI was designed to introduce an atmospheric correction and
  is a good index to estimate the vegetation fraction from the visible range
@@ -5330,25 +5248,25 @@ Description: VARI was designed to introduce an atmospheric correction and
  This index can be used to analyze crops in all growth stages.
 \end_layout
 
-\begin_layout Subsection
-Conclusion 
+\end_deeper
+\begin_layout Standard
+Note 
 \end_layout
 
-\begin_layout Standard
-We concluded that a single image can give different information whether
- it's RGB image or NIR image but NIR is more valuable as vegetation stress
- occurs in the NIR region first.
+\begin_layout Itemize
+NIR (Near-infrared ) image is more valuable than its counterpart RGB ( Red,
+ Green and Blue ) image as vegetation stress occurs in the NIR region first.
 \end_layout
 
 \begin_layout Section
+Cameras
+\end_layout
+
+\begin_layout Paragraph
 Multi-Spectral Cameras 
 \end_layout
 
-\begin_layout Standard
-The following cameras are mainly used in precision agriculture.
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Subparagraph
 Parrot SEQUOIA 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -5364,7 +5282,7 @@ key "Parrot_SEQUOIA"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5409,7 +5327,7 @@ Price: $3500 USD
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5440,7 +5358,7 @@ Parrot SEQUOIA's specifications
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subparagraph
 MicaSense RedEdge
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -5456,7 +5374,7 @@ key "RedEdge"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5506,7 +5424,7 @@ Price: $5195 USD
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5537,26 +5455,22 @@ MicaSense RedEdge's specifications
 
 \end_layout
 
-\begin_layout Subsection
-Sequoia Vs RedEdge 
+\begin_layout Standard
+Sequoia and RedEdge are both powerful multispectral sensors with the capability
+ to yield accurate and calibrated results 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ParrotSequoia_vs_Red"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-Sequoia and RedEdge are both powerful multispectral sensors with the capability
- to yield accurate and calibrated results.
+.
  Sequoia is simple to operate, fully capable yet lightweight and cost-effective.
  The additional band (blue), improved GSD, and multiple integration options
  make RedEdge an ideal solution for research and advanced integrations.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subparagraph
 The Sentera Double 4K
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -5593,7 +5507,7 @@ Price: $1999-$2949 USD
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5624,7 +5538,960 @@ The Sentera Double 4K
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subparagraph
+Comparison Between Multi-Spectral Cameras 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="8">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="2.1cm">
+<column alignment="center" valignment="top" width="2.1cm">
+<column alignment="center" valignment="top" width="1cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Camera
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Number of bands
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+RGB color outputs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Light sensor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Price
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Weight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Power usage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+IMU & GPS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+MicaSense 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+RedEdge
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 bands (Blue, Green, Red, Red Edge, Nearinfrared)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(Global shutter)3.6 MP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5900$
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+180 grams (with DLS and cable)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 W nominal, 8 W peak
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Parrot Sequoia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 bands (Green, Red, Red Edge, Nearinfrared)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(Rolling shutter)16 MP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3500$ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+135 grams (with Sunshine Sensor and cable)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8 W nominal, 12 W peak
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SENTERA QUAD SENSOR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6bands 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.5MP 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Need additional one
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5,499$~5,599$
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+126 grams
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+<10W 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+SENTERA DOUBLE 4K AGRICULTURE SENSOR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spectral Bands:
+\end_layout
+
+\begin_layout Plain Layout
+( Blue-Green - Red- Red Edge Near Infrared)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.3MP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Need additional one
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$2,499~ $4,299
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80 grams
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8W typical / 12W maxim um
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comparison between multi-spectral cameras 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can see that the price of any professional cameras is so high.
+ but you can overcome this by buying a consumer camera and convert to NIR
+ camera through NIR filter in front of its lenses .Nevertheless this modified
+ camera is in the same level as other professional cameras due to additional
+ hardware and their specific user online help.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/NIR filter.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+NIR filter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Consumer Camera Vs Professional Multi-Spectral Camera
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="6cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Consumer camera
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Professional multispectral camera
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Calibration
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+needs to be calibrated (ISO,Aperture,shutter speed)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A real and calibrated NDVI camera will account for differences in lighting
+ and maintain consistent and comparable outputs between multiple visits
+ to the same site, regardless of lighting.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Both need
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+calibrated against reflectance panels
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+calibrated against reflectance panels
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Price 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400$
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3500$ ~7000$
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Consumer camera vs professional multi-spectral camera
+\begin_inset CommandInset citation
+LatexCommand cite
+key "consumer_camera_vs_professional_multispectral_camera"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/Red edge vs Consumer Camera.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Right image from red edge camera and left image from consumer camera with
+ filter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Recommended Consumer Camera and Filters
+\end_layout
+
+\begin_layout Itemize
+Canon SX260, SX280, S100, S110, and S120 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They are are used by companies such as Agribotix, Sensefly, Roboflight,
+ Quest UAV etc.
+ To simplify operation.
+\end_layout
+
+\begin_layout Itemize
+Camera SX260HS, as this has an on-board GPS, allowing for captured image
+ to be geo-tagged with GPS coordinates.
+ This can help with the image processing later
+\backslash
+
+\end_layout
+
+\begin_layout Itemize
+price : $399.00 and it can be bought from any supplier in Egypt.
+\end_layout
+
+\begin_layout Itemize
+Filter 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "custom_ngb_filter_glass_for_diy_camera_conversion"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Custom NGB Filter Glass for DIY SX260, SX280, S100, S110, and S120 Camera
+ Conversions.
+\end_layout
+
+\begin_layout Itemize
+Price: $89.00
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Canon S110 RGB/NIR/RE camera
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Price: $699.00 
+\end_layout
+
+\begin_layout Itemize
+Filter
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Normal view (RGB), Near Infrared (NIR), or Red-Edge (RE)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/example canons110.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Canon S110 RGB/NIR/RE camera's images
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sony WX500
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Price: $499.00 “ lower prices may be found on amazon”
+\end_layout
+
+\begin_layout Itemize
+Filters may be removed from the camera to convert it to IR camera or adding
+ a NGB filter
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Mapir Survey 2 , Survey 3 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mapir's_Proucts_and_Solutions"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When buying a camera, it has a 6 options of filters and you can get with
+ the camera only one these filters.
+\end_layout
+
+\begin_layout Itemize
+Price : 400$
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+We recommend buying Mapir Survey 3 camera 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/mapir_survey3.JPG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mapir Survey 3 camera 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Specifications 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Survey_3_Camera's_Specications"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dimensions 59 x 41.5 x 36mm (Length x Height x Depth)
+\end_layout
+
+\begin_layout Itemize
+Image Dimensions (pixels) 4032 x 3024
+\end_layout
+
+\begin_layout Itemize
+Weight 50g (Without Battery), 76g (With Battery)
+\end_layout
+
+\begin_layout Itemize
+Power Draw 5.2V 0.2A (Without Battery), 5.2V 0.4A (With Battery)
+\end_layout
+
+\begin_layout Itemize
+External GPS Tags (Included)
+\end_layout
+
+\begin_layout Itemize
+IMU
+\end_layout
+
+\begin_layout Itemize
+Internal Battery
+\end_layout
+
+\begin_layout Itemize
+Price : 400$
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
 Hyper-Spectral Cameras 
 \end_layout
 
@@ -5658,7 +6525,7 @@ Hyper-Spectral Cameras
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Paragraph
 Thermal Cameras 
 \end_layout
 
@@ -5672,7 +6539,7 @@ Thermal Cameras
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Paragraph
 High Resolution Cameras
 \end_layout
 
@@ -5686,11 +6553,26 @@ High Resolution Cameras
 
 \end_layout
 
+\begin_layout Paragraph
+Notes
+\end_layout
+
+\begin_layout Itemize
+A gimballed system compensates for effects like blurred or oblique images
+ and lack of overlap.
+\end_layout
+
+\begin_layout Itemize
+The camera needs to be isolated from vibrations of the multi-rotor and this
+ is can be achieved using rubber isolation grommets between the camera gimbal
+ and the airframe.
+\end_layout
+
 \begin_layout Section
 Images Analysis Software
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Software On Server 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -5775,6 +6657,96 @@ Price plan
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Desktop Application
+\end_layout
+
+\begin_layout Standard
+There are some software that can run on your mahine.
+\end_layout
+
+\begin_layout Itemize
+ArcGIS
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ArcGIS Desktop Basic- Visualize, build maps, edit data, import CAD, perform
+ data conversions, generate maps, query data.
+ Cost is $1,500 for a single use license / $3,500 for concurrent.
+\end_layout
+
+\begin_layout Itemize
+ArcGIS Desktop Standard- Allows everything found in the basic version but
+ allows additional capabilities for multi-user platforms and editing enterprise
+ level geodatabases.
+ This level is required to take advantage of many custom editing tools published
+ by esri.
+ Cost is $7,000 for a single use or concurrent license.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Envi 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ENVI image analysis software uses scientifically proven analytics to deliver
+ expert-level results.
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Build our own software 
+\end_layout
+
+\begin_layout Standard
+We could use any image processing packages to analyze any image and compute
+ the desired vegetation index as any index has their own formula such as
+\end_layout
+
+\begin_layout Itemize
+Normalized difference vegetation index (NDVI)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+NDVI=\frac{NIR-Red}{NIR+Red}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Global environmental monitoring index (GEMI)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+eta=\frac{2\left(NIR^{2}-Red^{2}\right)+1.5*NIR+0.5*Red}{NIR+Red+0.5}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+GEMI=eta\left(1-0.25*eta\right)-\frac{Red-0.125}{1-Red}
+\]
 
 \end_inset
 
