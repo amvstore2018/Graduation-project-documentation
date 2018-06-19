@@ -4,9 +4,19 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass scrreprt
+\textclass scrbook
 \begin_preamble
 \usepackage{color,xcolor}
+    \usepackage{tocloft,calc}
+    \renewcommand{\cftchappresnum}{\chaptername\space}
+    \setlength{\cftchapnumwidth}{\widthof{\textbf{Appendix...}}}
+    \makeatletter
+    \g@addto@macro\appendix{%
+       \addtocontents{toc}{%
+         \protect\renewcommand{\protect\cftchappresnum}{\appendixname\space\space}%
+
+       }%
+    }
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -488,7 +498,7 @@ CAIRO UNIVERSITY
 \begin_layout Standard
 
 \size largest
-July, 2018
+June, 2018
 \end_layout
 
 \begin_layout Standard
@@ -543,6 +553,138 @@ status open
 pagenumbering{roman}
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Chapter*
+Acknowledgements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+acknowledgmentsname}{Acknowledgments}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+acknowledgmentsname}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+ACKNOWLEDGEMENT
+\end_layout
+
+\begin_layout Standard
+I would first like to thank my thesis advisor [title] [Name Surname] of
+ the [School / Faculty name] at [University name].
+ The door to Prof.
+ [Last name] office was always open whenever I ran into a trouble spot or
+ had a question about my research or writing.
+ He/She consistently allowed this paper to be my own work, but steered me
+ in the right the direction whenever he thought I needed it.
+\end_layout
+
+\begin_layout Standard
+I would also like to thank the experts who were involved in the validation
+ survey for this research project: [List professional Titles, Name and Surnames
+ of the experts who participated/contributed].
+ Without their passionate participation and input, the validation survey
+ could not have been successfully conducted.
+\end_layout
+
+\begin_layout Standard
+I would also like to acknowledge [title] [Name Surname] of the [School /
+ Faculty name] at [University name] as the second reader of this thesis,
+ and I am gratefully indebted to his/her for his/her very valuable comments
+ on this thesis.
+\end_layout
+
+\begin_layout Standard
+Finally, I must express my very profound gratitude to my parents and to
+ my [partner, spouse, girl/boyfriend] for providing me with unfailing support
+ and continuous encouragement throughout my years of study and through the
+ process of researching and writing this thesis.
+ This accomplishment would not have been possible without them.
+ Thank you.
+\end_layout
+
+\begin_layout Standard
+Author
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Add Acknowledgements to those people 
+\end_layout
+
+\begin_layout Plain Layout
+Moh Khaled 
+\end_layout
+
+\begin_layout Plain Layout
+Wessam
+\end_layout
+
+\begin_layout Plain Layout
+Ahmed Samir Aldemredash
+\end_layout
+
+\begin_layout Plain Layout
+Eng.
+ Mahmoud Gamoaa
+\end_layout
+
+\begin_layout Plain Layout
+Eng.
+ Nabil
+\end_layout
+
+\begin_layout Plain Layout
+Dr.
+ CFD (singaphra)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
 \end_inset
 
 
@@ -807,6 +949,51 @@ status open
 
 \backslash
 pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Chapter*
+Notes 
+\end_layout
+
+\begin_layout Itemize
+I didn't take from Report 5 chapter Multi Copter's angles 
+\end_layout
+
+\begin_layout Itemize
+Dihedral angle from Report 7
+\end_layout
+
+\begin_layout Itemize
+Angled motor mounts from Report 7
+\end_layout
+
+\begin_layout Itemize
+Side by side vs coaxial Report 9
+\end_layout
+
+\begin_layout Itemize
+Side by side vs coaxial Report 11
+\end_layout
+
+\begin_layout Itemize
+Side by side vs coaxial Report 12
+\end_layout
+
+\begin_layout Itemize
+Rotor spacing and diameter Report 12
+\end_layout
+
+\begin_layout Itemize
+Velocity at different theta & different drag coefficient Report 10
 \end_layout
 
 \end_inset
@@ -4667,6 +4854,13 @@ key "ardupilot"
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Ground-Control-Station"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -6406,6 +6600,528 @@ Price : 400$
 \end_layout
 
 \end_deeper
+\begin_layout Subparagraph
+Comparison Between Consumer Cameras
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="8">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Camera
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor width
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Focal length 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Image width
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Image height
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Mode
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Offers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cost
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Survey 3 w 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jpg or jpg + raw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GPS + IMU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400$
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Survey 2 w 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.97
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4608
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3456
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jpg or jpg + raw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400$
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Canon Sx260
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jpg + raw (requires library )
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000~2000 bounds + filter 99$
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Canon Sx280
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jpg + raw (requires library )
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000~2000 bounds + filter 99$
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Canon Sx100,Sx110 ,Sx120 series
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jpg + raw (requires library )
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sx100 only have GPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000~2000 bounds+ filter 99$
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comparison between consumer cameras
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Recommendation
+\end_layout
+
 \begin_layout Standard
 We recommend buying Mapir Survey 3 camera 
 \end_layout
@@ -6491,6 +7207,351 @@ Price : 400$
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+For Survey3 camera,the manufacturer recommends
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Survey3w's_Specifications"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes eld
+\end_inset
+
+For best stitching results, we recommend a survey overlap of at least 70%
+ front-lap and 70%side-lap and a maximum 5mph (8kmh) speed for every 65ft
+ (20m) of altitude (AGL) for RAW+JPG mode, and a maximum 10mph (16kmh) speed
+ for every 65ft (20m) of altitude (AGL) for JPG only mode.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sensor Width (SW)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.2 m.m
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Focal Length (FL)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.37 m.m
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Image Width (imW)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4000 px
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Image Height (imH)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000 px
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $Ovelap_{front}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $Ovelap_{side}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Survey 3 camera's specifications 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+We can generate the following figures using the relations in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chap:Camera-Terminology"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/Gsd vs Height.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+GSD vs Height
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/Velocity vs Height.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Velocity vs Height
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/Area vs Height.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Approximated mission time vs Height
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+We can determine for a given height and velocity the area that we can cover
+ without causing problems like motion blur.
+\end_layout
+
 \begin_layout Paragraph
 Hyper-Spectral Cameras 
 \end_layout
@@ -6566,6 +7627,139 @@ A gimballed system compensates for effects like blurred or oblique images
 The camera needs to be isolated from vibrations of the multi-rotor and this
  is can be achieved using rubber isolation grommets between the camera gimbal
  and the airframe.
+\end_layout
+
+\begin_layout Itemize
+Preplan your mission, do a site visit or use Google Earth for site info
+ 
+\end_layout
+
+\begin_layout Itemize
+The higher you fly, the less images you need which means less processing
+ time 
+\end_layout
+
+\begin_layout Itemize
+The higher you fly, the larger the area you can map 
+\end_layout
+
+\begin_layout Itemize
+Always check your images when in the field 
+\end_layout
+
+\begin_layout Itemize
+Fly at noon to limit shadows from the vines 
+\end_layout
+
+\begin_layout Itemize
+Use an observer 
+\end_layout
+
+\begin_layout Itemize
+Crop analysis is 20% flying and 80% data processing 
+\end_layout
+
+\begin_layout Itemize
+Image processing takes lots of computing power, get a fast processor with
+ lots of memory 
+\end_layout
+
+\begin_layout Itemize
+High quality images equates to high quality crop analysis, poor images mean
+ poor data 
+\end_layout
+
+\begin_layout Itemize
+Aerial images and analysis needs to be correlated with ground data to be
+ effective 
+\end_layout
+
+\begin_layout Itemize
+Normal photographs and video in RGB is almost as invaluable as NGB to the
+ vineyard owner 
+\end_layout
+
+\begin_layout Itemize
+Drone NDVI mapping becomes effective with vineyards greater than 50 acres
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drones_above_the_Vineyards"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Problems 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Making_Successful_Maps"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Motion Blur
+\end_layout
+
+\begin_layout Standard
+This is caused by fast-moving drones or vibration- this either means the
+ shutter speed isn't fast enough, or that you are flying too fast.
+ The best way to solve this is to improve shutter speed, but flying slower
+ or higher will help as well.
+ Here is an example of what motion blur looks like: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/motionblur.jpeg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Motion blur
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Photos taken at low altitude
+\end_layout
+
+\begin_layout Standard
+Taking photos at a low altitude lowers the surface area per image, which
+ will make them difficult to stitch together.
+ This can result in blurry maps.
+ It is difficult to cover as much ground in one flight as you could from
+ a higher altitude.
+ 
 \end_layout
 
 \begin_layout Section
@@ -6754,12 +7948,25 @@ GEMI=eta\left(1-0.25*eta\right)-\frac{Red-0.125}{1-Red}
 \end_layout
 
 \begin_layout Chapter
-Mechanical Design
+Drone Use in Aerial Pesticide Application
+\end_layout
+
+\begin_layout Paragraph
+Spraying System
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Figures/Week 2/Mechanical-Design_01.emf
+	filename Figures/Week 3/Drone used to spray ferltizers.png
+	lyxscale 50
 	width 15cm
 
 \end_inset
@@ -6767,9 +7974,69 @@ Mechanical Design
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Drone used to spray fertilizers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Components
+\end_layout
+
+\begin_layout Itemize
+Water Pump 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Quantity: 2 
+\end_layout
+
+\begin_layout Itemize
+Input: 11-25.5v 
+\end_layout
+
+\begin_layout Itemize
+Power: 45 watts
+\end_layout
+
+\begin_layout Itemize
+N.W: 284 gm 
+\end_layout
+
+\begin_layout Itemize
+Dual pump system 
+\end_layout
+
+\begin_layout Itemize
+Price : 95 $ /one 
+\end_layout
+
+\end_deeper
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Figures/Week 2/Mechanical-Design_02.emf
+	filename Figures/Week 3/Water pump.png
+	lyxscale 50
 	width 15cm
 
 \end_inset
@@ -6777,10 +8044,591 @@ Mechanical Design
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Water Pump 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tank
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Volume : 10 liter 
+\end_layout
+
+\begin_layout Itemize
+Max payload: 10kg 
+\end_layout
+
+\begin_layout Itemize
+Coverage per tank using standard spray nozzle: 2.47 Acres (10,000 m2) 
+\end_layout
+
+\begin_layout Itemize
+Price : 15 $ 
+\end_layout
+
+\end_deeper
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Figures/Week 2/Mechanical-Design_03.emf
+	filename Figures/Week 3/Tank.png
+	lyxscale 50
 	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tank
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Nozzle kit
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Quantity: 2 
+\end_layout
+
+\begin_layout Itemize
+Industry-standard ceramic nozzle 
+\end_layout
+
+\begin_layout Itemize
+360° degrees atomized spray pattern 
+\end_layout
+
+\begin_layout Itemize
+Includes 2 nozzles and tubes 
+\end_layout
+
+\begin_layout Itemize
+Max spray speed: 0.43L/min(per nozzle for water) 
+\end_layout
+
+\begin_layout Itemize
+Spray width: 4-6M (4 nozzles,1.5-3M above the crops) 
+\end_layout
+
+\begin_layout Itemize
+Droplet size : 130-150(droplet size vary according to operation environment
+ and spraying speed)
+\end_layout
+
+\begin_layout Itemize
+Price : 87 $ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/Nozzle kit.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Nozzle kit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Radar system
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Quantity:3
+\end_layout
+
+\begin_layout Itemize
+Weight: 0.17 kg
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/radar system.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Radar system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Aliexpress Spraying kit
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Operating voltage: 12VDC 
+\end_layout
+
+\begin_layout Itemize
+Net weight: 2.2KG-3kg 
+\end_layout
+
+\begin_layout Itemize
+Water tank capacity 15L / 20L * 1(Optional) Quick disassembly Nozzle * 4
+ pcs 
+\end_layout
+
+\begin_layout Itemize
+Spray rod * 2 
+\end_layout
+
+\begin_layout Itemize
+Water pump * 1
+\end_layout
+
+\begin_layout Itemize
+Remote control switch (adjustable speed) * 1 
+\end_layout
+
+\begin_layout Itemize
+Aluminum tripod and body connector * 1 
+\end_layout
+
+\begin_layout Itemize
+Price: US $432.25 - 441.75 / piece 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 3/Aliexpress Spraying kit.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Aliexpress Spraying kit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+System capabilities
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It can cover around 65-80 acres for one day
+\end_layout
+
+\begin_layout Itemize
+It takes the farmer to cover 0.65 acres in full day but with UAV it can do
+ it in just 2 minutes.
+\end_layout
+
+\begin_layout Itemize
+Spray rate may vary according to the nozzle model and viscosity of liquid,
+ For water, when using four XR11001 nozzles, the minimum rate is 1.2L/min
+ and the maximum rate is 1.7L/min.
+\end_layout
+
+\end_deeper
+\begin_layout Chapter
+Ground Control Station
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+We considered the design of our own ground control station ( GCS ), we build
+ it considering the features mentioned in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Ground-Control-Station"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Program Sequence Diagram
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/Sequence_diagram.eps
+	lyxscale 50
+	width 15cm
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Program sequence diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Features
+\end_layout
+
+\begin_layout Itemize
+Point-and-click waypoint entry 
+\end_layout
+
+\begin_layout Itemize
+The map is from Google Earth .
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Google Earth can work semi offline by cashing 2 gigabyte worth imagery on
+ the hard desk.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Select mission commands from drop-down menus 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Current missions include 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Survey 
+\end_layout
+
+\begin_layout Itemize
+Circular Path
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+You can see a how it was designed and a quick tutorial about it in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chap:Ground-Control-Station"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Hardware
+\end_layout
+
+\begin_layout Section
+Motor 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+kV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constant Watts 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Burst Watts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3D
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RimFire .15 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+650
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1135 g 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Motor's specifications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Connections
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 5/Connections 1.emf
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Connections #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -6797,7 +8645,8 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 2/Mechanical-Design_04.emf
+	filename Figures/Week 5/Connections 2.emf
+	lyxscale 50
 	width 15cm
 
 \end_inset
@@ -6809,14 +8658,343 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Different professional multi-copters
+Connections #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 5/Connections 3.emf
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Connections #3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+First Iteration
+\end_layout
+
+\begin_layout Standard
+A PCB is used to gather all sensor boards into one board for these reasons:
+ 
+\end_layout
+
+\begin_layout Itemize
+Wiring problems 
+\end_layout
+
+\begin_layout Itemize
+Fixing boards 
+\end_layout
+
+\begin_layout Itemize
+Collect their power sources in one specified power source 
+\end_layout
+
+\begin_layout Itemize
+Makes communication wires a lot easier to connect
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 5/Sensor board #1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PCB #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Actuators
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 5/Sensor board #2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PCB #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Boards after components 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 5/Sensor board #3.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PCB #3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 5/Sensor board #4.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PCB #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Sizing
+\end_layout
+
+\begin_layout Section
+Survey
+\end_layout
+
+\begin_layout Paragraph
+3DR X8+ Multicopter
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/3DR x8.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+3DR X8+ Multicopter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Aircraft weight (with battery): 7.7 lbs (3.5 kg) 
+\end_layout
+
+\begin_layout Itemize
+Aircraft dimensions: 13.7 in x 20.1 in x 11.8 in (35 cm x 51 cm x 30 cm) 
+\end_layout
+
+\begin_layout Itemize
+Case dimensions: 60.7 in x 14.5 in x 15.5 in (154 cm x 37 cm x 39 cm) 
+\end_layout
+
+\begin_layout Itemize
+Payload capacity: .4 lbs (200 g) 
+\end_layout
+
+\begin_layout Itemize
+Flight time: 14 min* 
+\end_layout
+
+\begin_layout Itemize
+Maximum operational wind speed: 25 mph (11 m/s) 
+\end_layout
+
+\begin_layout Itemize
+Recommended flight speed: 11 mph (5 m/s) 
+\end_layout
+
+\begin_layout Paragraph
+Mk8-3500 Agrar
 \begin_inset CommandInset citation
 LatexCommand cite
-key "dji"
+key "Mk8_3500_Agrar"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/Graduation project/Documentation/Report 5-9-10-2017/mk8-3500Agrar.jpg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mk8-3500 Agrar
 \end_layout
 
 \end_inset
@@ -6830,8 +9008,17 @@ key "dji"
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Figures/Week 2/Mechanical-Design_05.emf
+	filename Figures/Week 6/Mk8-3500 Agrar #1.png
+	lyxscale 50
 	width 15cm
 
 \end_inset
@@ -6839,10 +9026,17 @@ key "dji"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename Figures/Week 2/Mechanical-Design_06.emf
-	width 15cm
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mk8-3500 Agrar's specifications
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -6850,13 +9044,1310 @@ key "dji"
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename Figures/Week 2/Mechanical-Design_07.emf
+	filename Figures/Week 6/Mk8-3500 Agrar #2.png
+	lyxscale 50
 	width 15cm
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mk8-3500 Agrar's fligth times
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Agras MG-1S
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Agras_MG_1S"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Agras MG-1S.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Agras MG-1S
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Agras MG-1S #1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Agras MG-1S's specifications #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Agras MG-1S #2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Agras MG-1S's specifications #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Agras MG-1S #3.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Agras MG-1S's specifications #3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Agras MG-1S #4.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Agras MG-1S's specifications #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Matrice 200 Series 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Matrice_200_series"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Matrice 200 Series.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Matrice 200 Series
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Matrice 200 #1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Matrice 200 Series's specifications #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Matrice 200 #2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Matrice 200 Series's specifications #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Charts 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dronesusermanuals"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The following figures were generated based on a survey on professional drones.
+\begin_inset Note Note
+status open
+
+\begin_layout Paragraph*
+write more here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Quad.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Empty weight vs payload ( quad copter )
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Coax.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Empty weight vs payload ( coax copter )
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Octa.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Empty weight vs payload (octa copter)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Hexa.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Empty weight vs payload ( hexa copter )
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Tri.eps
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Empty weight vs payload ( tri copter )
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Coaxial vs Flat
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Flat #1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Flat #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Coaxial #1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coaxial #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coaxial vs Flat #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Flat #2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Flat #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/Coaxial #2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coaxial #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coaxial vs Flat #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Experiment
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 6/1.jpg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Experiment #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Side by Side
+\end_layout
+
+\begin_layout Subsubsection
+Coaxial 
+\end_layout
+
+\begin_layout Section
+Requirements
+\end_layout
+
+\begin_layout Itemize
+Our mission is design and manufacture a VTOL system that will be able to
+ carry 8 kg of payload
+\end_layout
+
+\begin_layout Itemize
+Payload is our a NDVI camera that can capture a NIR images to know the quality
+ & health of the plants
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Payload
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8000 grams
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Height
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50 meter
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Velocity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+max speed depend on the camera
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Numbers of motor 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+depend on payload
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Area of interest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.5 feddan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Time in air 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+according to the area of interest
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mission requirements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Sizing
+\end_layout
+
+\begin_layout Enumerate
+Collect data of all available motors according to their max efficiency
+\end_layout
+
+\begin_layout Enumerate
+Specify your required total Take off Weight & Flight time
+\end_layout
+
+\begin_layout Enumerate
+Specify your number of motors
+\end_layout
+
+\begin_layout Enumerate
+Get required thrust per motor = 2 * total take off weight / number of motors
+\end_layout
+
+\begin_layout Enumerate
+Motor selection by checking that max of thrust of each motor does not exceed
+ the thrust per motor and make polynomial fitting for power and thrust of
+ each motor
+\end_layout
+
+\begin_layout Enumerate
+Check thrust per motor <= max thrust of that motor
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+if yes then take that motor
+\end_layout
+
+\begin_layout Enumerate
+if no then ignore that motor
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Substitute into the corresponding valid motor chart by total thrust per
+ motor = 1.2 * total take off weight / number of motors
+\end_layout
+
+\begin_layout Enumerate
+Get power at that thrust
+\end_layout
+
+\begin_layout Enumerate
+Select a battery for each motor according to your required endurance & motor
+ voltage
+\end_layout
+
+\begin_layout Enumerate
+Check discharge for each battery, power * number of motors > battery power
+\end_layout
+
+\begin_layout Enumerate
+Get endurance = battery capacity *60 / Power when/ 8
+\end_layout
+
+\begin_layout Enumerate
+Assume no of batteries is 1 to 8 
+\end_layout
+
+\begin_layout Enumerate
+Get the least number of batteries to satisfy your required endurance
+\end_layout
+
+\begin_layout Enumerate
+Get weight of selected motors & ESC &batteries 
+\end_layout
+
+\begin_layout Enumerate
+Choose the motors , ESC's and Batteries min base weight with the max endurance
+\end_layout
+
+\begin_layout Standard
+Results:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="8cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total take off weight =4000 kg
+\end_layout
+
+\begin_layout Plain Layout
+FlightTime=15 min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Minimum base Weight = 2756.7088 grams 
+\end_layout
+
+\begin_layout Plain Layout
+Payload = 1243.2912 grams 
+\end_layout
+
+\begin_layout Plain Layout
+Selected motor = KDE2315XF-885 
+\end_layout
+
+\begin_layout Plain Layout
+Selected ESC = KDEXF-UAS35 
+\end_layout
+
+\begin_layout Plain Layout
+Selected prop = 9" X 3.0 
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery is 10000 / 14.8V / 4Cell/10C
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery No of cells = 4S 
+\end_layout
+
+\begin_layout Plain Layout
+NO of batteries = 1
+\end_layout
+
+\begin_layout Plain Layout
+NewEndurance = 15.0629min
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total take off weight =4000 kg
+\end_layout
+
+\begin_layout Plain Layout
+FlightTime=20 min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Minimum base Weight = 3238.7088 grams
+\end_layout
+
+\begin_layout Plain Layout
+Payload = 761.2912 grams
+\end_layout
+
+\begin_layout Plain Layout
+Selected motor = KDE2315XF-885
+\end_layout
+
+\begin_layout Plain Layout
+Selected ESC = KDEXF-UAS35 
+\end_layout
+
+\begin_layout Plain Layout
+Selected prop = 9" X 3.0
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery is 8000 / 14.8V / 4Cell/10C
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery No of cells = 4S 
+\end_layout
+
+\begin_layout Plain Layout
+NO of batteries = 2 
+\end_layout
+
+\begin_layout Plain Layout
+NewEndurance = 24.1006min
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total take off weight =5000 kg
+\end_layout
+
+\begin_layout Plain Layout
+FlightTime=20 min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Minimum base Weight = 3268.21 grams
+\end_layout
+
+\begin_layout Plain Layout
+Payload = 1731.79 grams 
+\end_layout
+
+\begin_layout Plain Layout
+Selected motor = KDE2315XF-965
+\end_layout
+
+\begin_layout Plain Layout
+Selected ESC = KDEXF-UAS35 
+\end_layout
+
+\begin_layout Plain Layout
+Selected prop = 10” X3.3 
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery is 8000 / 14.8V / 4Cell/10C 
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery No of cells = 4S 
+\end_layout
+
+\begin_layout Plain Layout
+NO of batteries = 2 
+\end_layout
+
+\begin_layout Plain Layout
+NewEndurance = 20.4799min
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total take off weight =7500 kg
+\end_layout
+
+\begin_layout Plain Layout
+FlightTime=15 min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Minimum base Weight = 4017.5112 grams 
+\end_layout
+
+\begin_layout Plain Layout
+Payload = 3482.4888 grams 
+\end_layout
+
+\begin_layout Plain Layout
+Selected motor = KDE2315XF-965 
+\end_layout
+
+\begin_layout Plain Layout
+Selected ESC = KDEXF-UAS35 
+\end_layout
+
+\begin_layout Plain Layout
+Selected prop = 11” X3.7 
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery is 8000 / 14.8V / 4Cell/10C 
+\end_layout
+
+\begin_layout Plain Layout
+Selected Battery No of cells = 4S 
+\end_layout
+
+\begin_layout Plain Layout
+NO of batteries = 3 
+\end_layout
+
+\begin_layout Plain Layout
+NewEndurance = 15.8992 min
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sizing's results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Control and Simulation
 \end_layout
 
 \begin_layout Standard
@@ -6864,6 +10355,3608 @@ key "dji"
 LatexCommand bibtex
 bibfiles "References/References"
 options "bibtotoc,IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\start_of_appendix
+Camera Terminology
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Camera-Terminology"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Introduction
+\end_layout
+
+\begin_layout Standard
+There are some definitions we should be familiar with when working with
+ camera in precision agriculture field.
+\end_layout
+
+\begin_layout Subparagraph
+Ground Sampling Distance (GSD)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ground_Sampling_Distance"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Ground Sampling Distance (GSD) is the distance between two consecutive
+ pixel centers measured on the ground.
+ The bigger the value of the image GSD, the lower the spatial resolution
+ of the image and the less visible details.
+ The GSD is related to the flight height: the higher the altitude of the
+ flight, the bigger the GSD value.
+\end_layout
+
+\begin_layout Subparagraph
+Example
+\end_layout
+
+\begin_layout Itemize
+A GSD of 5 cm means that one pixel in the image represents linearly 5 cm
+ on the ground (5*5 = 25 square centimeters).
+\end_layout
+
+\begin_layout Itemize
+A GSD of 10 m means that one pixel in the image represents linearly 10 m
+ on the ground (10*10 = 100 square meters).
+\end_layout
+
+\begin_layout Subparagraph
+Notes:
+\end_layout
+
+\begin_layout Standard
+Even when flying at a constant height, the images of a project may not have
+ the same GSD.
+ This is due to terrain elevation differences and changes in the angle of
+ the camera while shooting.
+ 
+\end_layout
+
+\begin_layout Itemize
+At a defined altitude, increasing the focal length:
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Paramters_Effect_on_Covered_Area"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A smaller area is captured, and therefore:
+\end_layout
+
+\begin_layout Itemize
+The Ground Sampling Distance (GSD) value will decrease: one pixel will capture
+ a smaller area and therefore the image will have a higher spatial resolution.
+ 
+\end_layout
+
+\begin_layout Itemize
+The image rate needs to be increased to maintain a good overlap.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+At a defined focal length, decreasing the altitude:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A smaller area is captured, and therefore:
+\end_layout
+
+\begin_layout Itemize
+The GSD value will decrease: one pixel will capture a smaller area and therefore
+ the image will have a higher spatial resolution.
+ 
+\end_layout
+
+\begin_layout Itemize
+The image rate needs to be increased to maintain a good overlap.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Terrains:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Forest and dense vegetation: Flying higher helps for the reconstruction,
+ but the spatial resolution will be lower.
+\end_layout
+
+\begin_layout Itemize
+Buildings: Flying higher reduces the artifacts at the building edges, but
+ the spatial resolution will be lower.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/focal length & area covered.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Focal length and flight height effect on area covered
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Overlap:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Low altitude with big focal length will request a very high image rate in
+ order to maintain a good overlap.
+\end_layout
+
+\begin_layout Itemize
+For a given focal length and a given image rate, increasing the altitude
+ will increase the overlap.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/focal length & overlab.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Image rate and flight height effect on overlap
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Resolution
+\end_layout
+
+\begin_layout Standard
+Resolution is a term associated with all types of photography.
+ It has several different meanings depending on the context in which it
+ is used.
+\end_layout
+
+\begin_layout Standard
+With regard to digital cameras, resolution (also called image capture resolution
+) refers to the number of pixels in the camera sensor.
+ A camera with 3 megapixels has a sensor with 3 million pixels.
+ A pixel in a sensor is a single element of the sensor that will record
+ the smallest element of the image.
+ The more pixels in a sensor, the higher the resolution of the image.
+\end_layout
+
+\begin_layout Standard
+With regard to digital printing, resolution refers to the number of dots
+ in a given distance, usually dots per inch, or DPI.
+ The more dots per inch, the higher resolution of the print.
+\end_layout
+
+\begin_layout Standard
+With regard to vertical aerial photography, resolution (also called ground
+ resolution or ground sample distance) refers to the area of ground covered
+ by an individual pixel.
+ In an image with 6 inch ground resolution, each pixel records the average
+ reflected color of an area 6 inches by 6 inches.
+ The fewer inches per pixel, the higher the resolution resolution of the
+ image.
+ The selection of a desired ground resolution is an important factor to
+ decide when ordering vertical aerial images.
+ 
+\end_layout
+
+\begin_layout Standard
+Examples of various ground resolutions and considerations:
+\end_layout
+
+\begin_layout Itemize
+1 meter (36 inch) resolution is considered high resolution for satellite
+ imagery.
+ It is useful for surveying very large areas.
+ Details that can be seen at this resolution include roads, average color
+ of crops and forests, buildings, large infrastructure features and large
+ waterways.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/meter resolution.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Meter resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+12 inch resolution is the industry standard for most archived large area
+ image databases including Google Earth.
+ It displays much more detail than 1 meter resolution.
+ Details that can be seen at this resolution include vehicles, roads and
+ some markings, individual crop rows, large trees and details on buildings.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/12 inch resultion.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+12 inch resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+6 inch resolution is considered high resolution for aerial photography.
+ This resolution is occasionally available from archives but is usually
+ produced on a custom basis.
+ Details that are visible at this resolution include individual small trees
+ and plants, individual vines and other crops, vehicle types, power poles
+ and other infrastructure details, road markings and lettering.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/6 inch resultion.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+6 inch resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+3 inch resolution is very high resolution for aerial imagery.
+ Details that can be seen with this resolution include power lines and other
+ very small infrastructure details, individual people and animals, currents
+ and waves in water, fine details on roads including markings and skid marks.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/3 inch resultion.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+3 inch resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+1 inch resolution is about the highest ground resolution available today.
+ Street markings are very clear and legible.
+ This resolution provides detail 9 times greater than 3 inch.
+ Focal Flight has shot areas up to 80 square miles at this resolution providing
+ the user the highest available detail in their imagery.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/1 inch resultion.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+3 inch resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+RAW vs JPG 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "raw_vs_jpeg"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Some Camera offers two captures modes 
+\end_layout
+
+\begin_layout Itemize
+8-bit JPG mode
+\end_layout
+
+\begin_layout Itemize
+12 bit RAW+ 8 bit JPG mode
+\end_layout
+
+\begin_layout Standard
+Main difference :
+\end_layout
+
+\begin_layout Itemize
+From photo Graph prospective 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When you shoot in RAW you record all of the data from the sensor.
+ 
+\end_layout
+
+\begin_layout Itemize
+8-bit JPEG format that can only contain up to 256 shades of Red, Green and
+ Blue colors (total of 16 million), 12-bit RAW images contain the most amount
+ of information with 4,096 shades or Red, Green and Blue (equivalent of
+ 68 billion colors!) and higher.
+ 
+\end_layout
+
+\begin_layout Itemize
+RAW takes up much more camera memory and space than JPEG images.
+ This means that memory card can store fewer images and camera buffer can
+ quickly fill up, causing the camera frame rate to drop down significantly.
+ 
+\end_layout
+
+\begin_layout Itemize
+No image-sharpening is performed on RAW files, which means that you can
+ use better and more complex sharpening algorithms for your photos in your
+ PC.
+\end_layout
+
+\begin_layout Itemize
+you can post process the raw images into jpeg images but you can
+\end_layout
+
+\begin_layout Itemize
+JPEG images are fully processed in camera and all settings such as White
+ Balance, Color Saturation, Tone Curve, Sharpening and Color Space are already
+ applied to the image.
+ So you do not need to spend any time on post-processing the image – all
+ you need to do is extract the image out of the memory card and it is ready
+ to use.
+ JPEG images are much smaller than RAW images and therefore consume a lot
+ less storage and need much less processing power.
+ Due to the smaller size, cameras can write JPEG files much faster, which
+ increases the number of pictures that can fit in temporary camera buffer.
+ This means that compared to RAW, you can potentially shoot at higher frames
+ per second and for longer periods of time.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+From our application prospective
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+JPEG images are (mostly) lossy compressed images of the original, thought
+ for visualization purposes, not for analysis.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/HDR_JPEGvRAW_Comparison.jpg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+JPEG image vs RAW image
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We recommend shooting in Raw + jpg mode.
+\end_layout
+
+\begin_layout Paragraph
+Recommended Overlap 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Designing_the_Image_Acquisition_Plan"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The recommended overlap for most cases is at least 75% frontal overlap (with
+ respect to the flight direction) and at least 60% side overlap (between
+ flying tracks).
+ It is recommended to take the images with a regular grid pattern .
+ The camera should be maintained as much possible at a constant height over
+ the terrain / object to ensure the desired GSD.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/flight_plan.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ideal image acquisition plan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+Computing the Image Rate for a given Frontal Overlap
+\end_layout
+
+\begin_layout Standard
+The image shooting rate to achieve a given frontal overlap depends on the
+ speed of the UAV/plane, the GSD and the pixel resolution of the camera.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/overlap#1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Overlap 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Overlap"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Overlap"
+
+\end_inset
+
+, we obtain the following equations:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{c}
+od=overlap*D\\
+x=D-od\\
+t=x/v
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where
+\end_layout
+
+\begin_layout Standard
+D = distance covered on the ground by one image in the flight direction
+ [m]
+\end_layout
+
+\begin_layout Standard
+overlap = percentage of desired frontal overlap between two images
+\end_layout
+
+\begin_layout Standard
+od = overlap between two images in the flight direction [m]
+\end_layout
+
+\begin_layout Standard
+x = distance between two camera positions in the flight direction [m] 
+\end_layout
+
+\begin_layout Standard
+v = flight speed [m/s]
+\end_layout
+
+\begin_layout Standard
+t = elapsed time between two images (image rate) [s]
+\end_layout
+
+\begin_layout Standard
+Two cases are possible:
+\end_layout
+
+\begin_layout Itemize
+Camera oriented with the sensor width (long dimension) perpendicular to
+ the flight direction (usual case)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/aircraft_width.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sensor width placed perpendicular to the flight direction.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=D_{h}=\left(imH*GSD\right)/100
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{h}$
+\end_inset
+
+= distance covered on the ground by one image in the height direction (footprint
+ height) [m]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $imH$
+\end_inset
+
+ = image height [pixel]
+\end_layout
+
+\begin_layout Standard
+GSD = desired GSD [cm/pixel]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\because x=D_{h}-overlap*D_{h}\\
+x=D_{h}\left(1-overlap\right)\\
+x=\left(\left(imH*GSD\right)/100\right)\left(1-overlap\right)\\
+t=\left(\left(imH*GSD\right)/100\right)\left(1-overlap\right)/v
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note: x is given in [m], considering that the GSD is in [cm/pixel].
+\end_layout
+
+\begin_layout Itemize
+Camera oriented with the sensor width (long dimension) parallel to the flight
+ direction
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 4/aircraft_width.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sensor width placed perpendicular to the flight direction.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=D_{w}=\left(imW*GSD\right)/100
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D_{w}$
+\end_inset
+
+= distance covered on the ground by one image in the width direction (footprint
+ width) [m]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $imW$
+\end_inset
+
+ = image width [pixel]
+\end_layout
+
+\begin_layout Standard
+GSD = desired GSD [cm/pixel]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\because x=D_{w}-overlap*D_{w}\\
+x=D_{w}\left(1-overlap\right)\\
+x=\left(\left(imW*GSD\right)/100\right)\left(1-overlap\right)\\
+t=\left(\left(imW*GSD\right)/100\right)\left(1-overlap\right)/v
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Calculating Flight Height , Flight Velocity 
+\end_layout
+
+\begin_layout Standard
+There are relations between camera specification, flight height and GSD.
+\end_layout
+
+\begin_layout Quote
+The following relations were derived by pix4d 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GSD_Calculator"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align center
+\begin_inset Formula $\begin{array}{c}
+GSD=\left(SW*H*100\right)/\left(FL*imW\right)\\
+D_{w}=GSD*imW/100\\
+D_{h}=GSD*imH/100\\
+Ox=Ovelap_{front}*D_{h}\\
+x=D_{h}-Ox\\
+Oy=Ovelap_{side}*D_{w}\\
+y=D_{w}-Oy\\
+Max\,velocity=CEIL\left(H/20\right)*5*0.44704\\
+v=f*Max\,velocity\\
+t=x/v
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Where: 
+\end_layout
+
+\begin_layout Quote
+H: Flight height (m).
+\end_layout
+
+\begin_layout Quote
+Max velocity: The max velocity at this height (m/sec).
+\end_layout
+
+\begin_layout Quote
+f: Percentage of max velocity.
+\end_layout
+
+\begin_layout Quote
+v: Flight velocity (m/sec).
+\end_layout
+
+\begin_layout Quote
+\begin_inset Note Note
+status open
+
+\begin_layout Paragraph*
+Add reference to the labview code here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Ground Control Station
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Ground-Control-Station"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Google earth
+\end_layout
+
+\begin_layout Standard
+Google Earth for PC enables you to explore the globe.
+ Fly through 3D cities like London, Tokyo and Rome.
+ Dive in to view the world at street level with integrated Street View.
+ Find stories about what it means to live here from the BBC, NASA, Sesame
+ Street, and more.
+\end_layout
+
+\begin_layout Standard
+the program version that is used with our program is 
+\family typewriter
+\series bold
+GoogleEarthWin_5.2.1.1588 
+\family default
+\series default
+as officially google earth doesn't support API after version 
+\family typewriter
+\series bold
+5.2
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\family typewriter
+\series bold
+Today we’re announcing that the Google Earth 5.2 client will be the last
+ version that supports the COM API.
+ Earth 5.2 and older clients will continue to support the COM API while these
+ versions are supported.
+ Future releases will no longer have COM API bindings.
+ We believe that the JavaScript API provides the best mechanism for reaching
+ the most developers.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+you can find the version that is used by following this link 
+\begin_inset CommandInset href
+LatexCommand href
+name "GoogleEarthWin_5.2.1"
+target "https://sites.google.com/site/udcgroundstation/downloads"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+KML
+\end_layout
+
+\begin_layout Standard
+I had to learn kml syntax in order to fully control Google earth.
+\end_layout
+
+\begin_layout Standard
+i focused on three examples to create way points on google earth
+\end_layout
+
+\begin_layout Itemize
+kml Placemark
+\end_layout
+
+\begin_layout Itemize
+kml Path
+\end_layout
+
+\begin_layout Itemize
+kml NetworkLink 
+\end_layout
+
+\begin_layout Standard
+and by understanding them.
+ I could build complex things like used in the program.
+\end_layout
+
+\begin_layout Subparagraph
+Introduction
+\end_layout
+
+\begin_layout Standard
+KML is a file format used to display geographic data in an Earth browser
+ such as Google Earth.
+ KML uses a tag-based structure with nested elements and attributes and
+ is based on the XML standard.
+ 
+\end_layout
+
+\begin_layout Paragraph
+KML Placemark
+\end_layout
+
+\begin_layout Standard
+A Placemark is one of the most commonly used features in Google Earth.
+ It marks a position on the Earth's surface, using a yellow pushpin as the
+ icon.
+ The simplest Placemark includes only a <Point> element, which specifies
+ the location of the Placemark.
+ You can specify a name and a custom icon for the Placemark, and you can
+ also add other geometry elements to it.
+\end_layout
+
+\begin_layout Standard
+Open the KML Samples file in Google Earth and expand the Placemarks subfolder.
+ This folder includes three different types of placemark: simple, floating,
+ and extruded.
+ The KML code for the simple placemark looks like this:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "language=XML"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+<?xml version="1.0" encoding="UTF-8"?>
+\end_layout
+
+\begin_layout Plain Layout
+
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+\end_layout
+
+\begin_layout Plain Layout
+
+	<Placemark> <name>Simple placemark</name> 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<description>Attached to the ground.
+ Intelligently places itself at the height of the underlying terrain.</descriptio
+n> 
+\end_layout
+
+\begin_layout Plain Layout
+
+		<Point>
+\end_layout
+
+\begin_layout Plain Layout
+
+		<coordinates>-122.0822035425683,37.42228990140251,0</coordinates> 
+\end_layout
+
+\begin_layout Plain Layout
+
+		</Point> 
+\end_layout
+
+\begin_layout Plain Layout
+
+	</Placemark> 
+\end_layout
+
+\begin_layout Plain Layout
+
+</kml> 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Placemark.kml
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The structure of this file breaks down as follows:
+\end_layout
+
+\begin_layout Itemize
+An XML header.
+ This is line 1 in every KML file.
+ No spaces or other characters can appear before this line.
+ 
+\end_layout
+
+\begin_layout Itemize
+A KML namespace declaration.This is line 2 in every KML 2.2 file.
+\end_layout
+
+\begin_layout Itemize
+A Placemark object that contains the following elements: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A name that is used as the label for the Placemark
+\end_layout
+
+\begin_layout Itemize
+A description that appears in the "balloon" attached to the Placemark 
+\end_layout
+
+\begin_layout Itemize
+A Point that specifies the position of the Placemark on the Earth's surface
+ (longitude, latitude, and optional altitude) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/Ex_1.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ Placemark example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+KML Style
+\end_layout
+
+\begin_layout Standard
+Once you've created features within Google Earth and examined the KML code
+ Google Earth generates, you'll notice how styles are an important part
+ of how your data is displayed.
+ Power users will want to learn how to define their own styles.
+\end_layout
+
+\begin_layout Standard
+If you define a Style at the beginning of a KML Document and also define
+ an ID for it, you can use this style in Geometry, Placemarks, and Overlays
+ that are defined elsewhere in the Document.
+ Because more than one element can use the same Style, styles defined and
+ used in this way are referred to as shared styles.
+ You define a given Style once, and then you can reference it multiple times,
+ using the <styleUrl> element.
+ If the Style definition is within the same file, precede the Style ID with
+ a # sign.
+ If the Style definition is in an external file, include the complete URL
+ in the <styleUrl> element.
+\end_layout
+
+\begin_layout Subparagraph
+Example 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "language=XML"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+<?xml version="1.0" encoding="UTF-8"?>
+\end_layout
+
+\begin_layout Plain Layout
+
+<kml xmlns="http://www.opengis.net/kml/2.2">
+\end_layout
+
+\begin_layout Plain Layout
+
+<Document>    
+\end_layout
+
+\begin_layout Plain Layout
+
+<Style id="transBluePoly">  
+\end_layout
+
+\begin_layout Plain Layout
+
+<LineStyle>
+\end_layout
+
+\begin_layout Plain Layout
+
+<width>1.5</width> 
+\end_layout
+
+\begin_layout Plain Layout
+
+</LineStyle>   
+\end_layout
+
+\begin_layout Plain Layout
+
+<PolyStyle>      
+\end_layout
+
+\begin_layout Plain Layout
+
+<color>7dff0000</color>    
+\end_layout
+
+\begin_layout Plain Layout
+
+</PolyStyle>  
+\end_layout
+
+\begin_layout Plain Layout
+
+</Style>   
+\end_layout
+
+\begin_layout Plain Layout
+
+<Placemark>      
+\end_layout
+
+\begin_layout Plain Layout
+
+<name>Building 41</name>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<styleUrl>#transBluePoly</styleUrl>      
+\end_layout
+
+\begin_layout Plain Layout
+
+<Polygon>      
+\end_layout
+
+\begin_layout Plain Layout
+
+<extrude>1</extrude>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<altitudeMode>relativeToGround</altitudeMode>  
+\end_layout
+
+\begin_layout Plain Layout
+
+<outerBoundaryIs>      
+\end_layout
+
+\begin_layout Plain Layout
+
+<LinearRing>      
+\end_layout
+
+\begin_layout Plain Layout
+
+<coordinates>
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0857412771483,37.42227033155257,17
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0858169768481,37.42231408832346,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.085852582875,37.42230337469744,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0858799945639,37.42225686138789,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0858860101409,37.4222311076138,17        
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0858069157288,37.42220250173855,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0858379542653,37.42214027058678,17          
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0856732640519,37.42208690214408,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0856022926407,37.42214885429042,17          
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0855902778436,37.422128290487,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0855841672237,37.42208171967246,17             
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0854852065741,37.42210455874995,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0855067264352,37.42214267949824,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0854430712915,37.42212783846172,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0850990714904,37.42251282407603,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0856769818632,37.42281815323651,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0860162273783,37.42244918858722,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0857260327004,37.42229239604253,17               
+\end_layout
+
+\begin_layout Plain Layout
+
+-122.0857412771483,37.42227033155257,17              
+\end_layout
+
+\begin_layout Plain Layout
+
+</coordinates>           
+\end_layout
+
+\begin_layout Plain Layout
+
+</LinearRing>         
+\end_layout
+
+\begin_layout Plain Layout
+
+</outerBoundaryIs>       
+\end_layout
+
+\begin_layout Plain Layout
+
+</Polygon>     
+\end_layout
+
+\begin_layout Plain Layout
+
+</Placemark>   
+\end_layout
+
+\begin_layout Plain Layout
+
+</Document> 
+\end_layout
+
+\begin_layout Plain Layout
+
+</kml>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Style.kml
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/Ex_2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Style example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+KML Path
+\end_layout
+
+\begin_layout Standard
+Many different types of paths can be created in Google Earth, and it is
+ easy to be very creative with your data.
+ In KML, a path is created by a <LineString> element.
+ Take a look at the "Absolute Extruded" example in the Paths folder and
+ you can see how the shape has been generated by the following code:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "language=XML"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+<?xml version="1.0" encoding="UTF-8"?> 
+\end_layout
+
+\begin_layout Plain Layout
+
+<kml xmlns="http://www.opengis.net/kml/2.2">   
+\end_layout
+
+\begin_layout Plain Layout
+
+<Document>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<name>Paths</name>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<description>Examples of paths.
+ Note that the tessellate tag is by default       set to 0.
+ If you want to create tessellated lines, they must be authored       (or
+ edited) directly in KML.</description>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<Style id="yellowLineGreenPoly">       
+\end_layout
+
+\begin_layout Plain Layout
+
+<LineStyle>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<color>7f00ffff</color>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<width>4</width>       
+\end_layout
+
+\begin_layout Plain Layout
+
+</LineStyle>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<PolyStyle>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<color>7f00ff00</color>       
+\end_layout
+
+\begin_layout Plain Layout
+
+</PolyStyle>     
+\end_layout
+
+\begin_layout Plain Layout
+
+</Style>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<Placemark>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<name>Absolute Extruded</name>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<description>Transparent green wall with yellow outlines</description> 
+      
+\end_layout
+
+\begin_layout Plain Layout
+
+<styleUrl>#yellowLineGreenPoly</styleUrl>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<LineString>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<extrude>1</extrude>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<tessellate>1</tessellate>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<altitudeMode>absolute</altitudeMode>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<coordinates> 
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2550785337791,36.07954952145647,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2549277039738,36.08117083492122,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2552505069063,36.08260761307279,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2564540158376,36.08395660588506,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2580238976449,36.08511401044813,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2595218489022,36.08584355239394,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2608216347552,36.08612634548589,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.262073428656,36.08626019085147,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2633204928495,36.08621519860091,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2644963846444,36.08627897945274,2357           
+\end_layout
+
+\begin_layout Plain Layout
+
+-112.2656969554589,36.08649599090644,2357          
+\end_layout
+
+\begin_layout Plain Layout
+
+</coordinates>       
+\end_layout
+
+\begin_layout Plain Layout
+
+</LineString>     
+\end_layout
+
+\begin_layout Plain Layout
+
+</Placemark>   
+\end_layout
+
+\begin_layout Plain Layout
+
+</Document> 
+\end_layout
+
+\begin_layout Plain Layout
+
+</kml>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Path.kml
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/Ex_3.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Path example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+KML Network link
+\end_layout
+
+\begin_layout Standard
+A network link contains a <Link> element with an <href> (a hypertext reference)
+ that loads a file.
+ The <href> can be a local file specification or an absolute URL.
+ Despite the name, a <NetworkLink> does not necessarily load files from
+ the network.
+\end_layout
+
+\begin_layout Standard
+The <href> in a link specifies the location of any of the following:
+\end_layout
+
+\begin_layout Itemize
+An image file used by icons in icon styles, ground overlays, and screen
+ overlays 
+\end_layout
+
+\begin_layout Itemize
+A model file used in the <Model> element 
+\end_layout
+
+\begin_layout Itemize
+A KML or KMZ file loaded by a Network Link
+\end_layout
+
+\begin_layout Standard
+The specified file can be either a local file or a file on a remote server.
+ In their simplest form, network links are a useful way to split one large
+ KML file into smaller, more manageable files on the same computer.
+\end_layout
+
+\begin_layout Standard
+So far, all of our examples have required that the KML code be delivered
+ to Google Earth from the local machine.
+ Network links give you the power to serve content from a remote location
+ and are commonly used to distribute data to large numbers of users.
+ In this way, if the data needs to be amended, it has to be changed only
+ at the source location, and all users receive the updated data automatically.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "language=XML"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+<kml xmlns="http://www.opengis.net/kml/2.2">   
+\end_layout
+
+\begin_layout Plain Layout
+
+<Document>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<name>Open Document</name>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<open>1</open>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<NetworkLink>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<name>Open NetworkLink</name>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<open>1</open>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<description>NetworkLink open to fetched content</description>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<Link>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<href>placemark.kml</href>       
+\end_layout
+
+\begin_layout Plain Layout
+
+</Link>     
+\end_layout
+
+\begin_layout Plain Layout
+
+</NetworkLink>     
+\end_layout
+
+\begin_layout Plain Layout
+
+<NetworkLink>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<name>non-Open NetworkLink</name>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<open>0</open>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<description>NetworkLink not open</description>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<Link>         
+\end_layout
+
+\begin_layout Plain Layout
+
+<href>placemark.kml</href>       
+\end_layout
+
+\begin_layout Plain Layout
+
+</Link>     
+\end_layout
+
+\begin_layout Plain Layout
+
+</NetworkLink>   
+\end_layout
+
+\begin_layout Plain Layout
+
+</Document> 
+\end_layout
+
+\begin_layout Plain Layout
+
+</kml> 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Network link.kml
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "language=XML"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+<kml xmlns="http://www.opengis.net/kml/2.2">   
+\end_layout
+
+\begin_layout Plain Layout
+
+<Placemark id="p">     
+\end_layout
+
+\begin_layout Plain Layout
+
+<name>P</name>    
+\end_layout
+
+\begin_layout Plain Layout
+
+<Point>       
+\end_layout
+
+\begin_layout Plain Layout
+
+<coordinates>1,1</coordinates>     
+\end_layout
+
+\begin_layout Plain Layout
+
+</Point>   
+\end_layout
+
+\begin_layout Plain Layout
+
+</Placemark> 
+\end_layout
+
+\begin_layout Plain Layout
+
+</kml> 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Placemark.kml
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/Ex_2.png
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Network link example
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Windows API
+\end_layout
+
+\begin_layout Standard
+theses Windows API functions were used in the program to get google earth
+ rendered window handle
+\end_layout
+
+\begin_layout Paragraph
+FindWindowEx Function
+\end_layout
+
+\begin_layout Standard
+Retrieves a handle to a window whose class name and window name match the
+ specified strings.
+ The function searches child windows, beginning with the one following the
+ specified child window.
+ This function does not perform a case-sensitive search.
+\end_layout
+
+\begin_layout Paragraph
+GetWindowLong Function
+\end_layout
+
+\begin_layout Standard
+Retrieves information about the specified window.
+ The function also retrieves the 32-bit (DWORD) value at the specified offset
+ into the extra window memory.
+\end_layout
+
+\begin_layout Paragraph
+SetWindowLong Function
+\end_layout
+
+\begin_layout Standard
+Changes an attribute of the specified window.
+ The function also sets the 32-bit (long) value at the specified offset
+ into the extra window memory.
+\end_layout
+
+\begin_layout Paragraph
+SetLayeredWindowAttributes Function
+\end_layout
+
+\begin_layout Standard
+Sets the opacity and transparency color key of a layered window.
+\end_layout
+
+\begin_layout Paragraph
+MoveWindow Function
+\end_layout
+
+\begin_layout Standard
+Changes the position and dimensions of the specified window.
+ For a top-level window, the position and dimensions are relative to the
+ upper-left corner of the screen.
+ For a child window, they are relative to the upper-left corner of the parent
+ window's client area.
+\end_layout
+
+\begin_layout Paragraph
+ShowWindow Function
+\end_layout
+
+\begin_layout Standard
+Sets the specified window's show state.
+\end_layout
+
+\begin_layout Paragraph
+SetParent Function
+\end_layout
+
+\begin_layout Standard
+Changes the parent window of the specified child window.
+\end_layout
+
+\begin_layout Section
+Spline path
+\end_layout
+
+\begin_layout Standard
+We wanted to create spline path like the ones generated by professional
+ GCS
+\end_layout
+
+\begin_layout Paragraph
+Spline Path Algorithm
+\end_layout
+
+\begin_layout Enumerate
+Specify four points to specify the required area of interest
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Figures/Week 7/AOI.svg
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Aera of interest
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Specify your required height & from relations from 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chap:Camera-Terminology"
+
+\end_inset
+
+, you will get the required X , Y & required velocity to the multi rotor.
+\end_layout
+
+\begin_layout Enumerate
+calculate the inclination of line 
+\begin_inset Formula $\overrightarrow{12}$
+\end_inset
+
+ , line 
+\begin_inset Formula $\overrightarrow{14}$
+\end_inset
+
+ & line 
+\begin_inset Formula $\overrightarrow{23}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calculate max distance between point 2 & point 3 and point 1 & point 3
+\end_layout
+
+\begin_layout Enumerate
+get number of rows 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $n_{row}=\frac{max\,distance}{Y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+for i = 1 : 
+\begin_inset Formula $n_{row}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+get direction 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+if 
+\begin_inset Formula $i$
+\end_inset
+
+ equals odd number then 
+\begin_inset Formula $dir=1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+if 
+\begin_inset Formula $i$
+\end_inset
+
+ equals even number then 
+\begin_inset Formula $dir=-1$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+move from point 1 distance 
+\begin_inset Formula $i*Y$
+\end_inset
+
+ in the direction of line 
+\begin_inset Formula $\overrightarrow{14}$
+\end_inset
+
+ & get this point (longitude & latitude)(
+\begin_inset Formula $\overset{*}{P_{i}}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+move from point 2 distance 
+\begin_inset Formula $i*Y$
+\end_inset
+
+ in the direction of line 
+\begin_inset Formula $\overrightarrow{23}$
+\end_inset
+
+ & get this point(longitude & latitude)(
+\begin_inset Formula $\overset{*}{P_{2i}}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+get number of points in each row 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $n_{clumbs}=\frac{distance(\overset{*}{P_{i}},\overset{*}{P_{2i}})}{X}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+for i = 1 :
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $n_{clumbs}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+move from 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\overset{*}{P_{i}}$
+\end_inset
+
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+to 
+\begin_inset Formula $P_{i}$
+\end_inset
+
+ distance 
+\begin_inset Formula $dir*X$
+\end_inset
+
+ in the direction of line 
+\begin_inset Formula $\overrightarrow{12}$
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+end
+\end_layout
+
+\begin_layout Enumerate
+move from 
+\begin_inset Formula $P_{n_{clumbs}}$
+\end_inset
+
+distance 
+\begin_inset Formula $Y$
+\end_inset
+
+ in the direction of line 
+\begin_inset Formula $\overrightarrow{23}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+end
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Example
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS2.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Front panel #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS1.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Block diagram #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS4.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Front panel #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS3.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Block diagram #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Manual
+\end_layout
+
+\begin_layout Itemize
+First install the attached google earth program then open the application.exe
+ file
+\end_layout
+
+\begin_layout Itemize
+Wait until google earth opens then switch to application.exe 's window
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align block
+Click on the left and the right button of the mouse
+\end_layout
+
+\begin_layout Itemize
+Click OK button then google earth will atomically goes to it's default location(
+our collage longitude and latitude)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/dialog box #1.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dialog box #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Make path
+\end_layout
+
+\begin_layout Itemize
+Click on the left and the right button of the mouse
+\end_layout
+
+\begin_layout Itemize
+Click Create Path button
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/dialog box #2.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dialog box #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Click on the right button to choose it your home point
+\end_layout
+
+\begin_layout Itemize
+Enter your altitude at that point
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/dialog box #3.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dialog box #3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Click OK button
+\end_layout
+
+\begin_layout Itemize
+Click on the right mouse to specify different way points and each time you
+ click, you'll have to specify the required altitude at that point
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #1.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Note that 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+the red point is your start & end point
+\end_layout
+
+\begin_layout Enumerate
+green point is way point that is not your home point
+\end_layout
+
+\begin_layout Enumerate
+blue point is the closest point to the airplane at that moment
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Modify way point 
+\end_layout
+
+\begin_layout Itemize
+Go close to your desired unwanted way point
+\end_layout
+
+\begin_layout Itemize
+Click Modify way Point button
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/dialog box #2.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dialog box #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The way point will begin to move with the mouse until you click on the right
+ mouse button
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #2.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enter your new altitude at that point
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/dialog box #3.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dialog box #3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+That's now your new point have been added to the way point array successfully
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #3.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Make circle path 
+\end_layout
+
+\begin_layout Itemize
+Go to menu bar and Click on 
+\family typewriter
+Options
+\family default
+ then choose 
+\family typewriter
+DrawCircle
+\family default
+ from the drop-down menu
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #7.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Choose your circumference point of the circle then choose your center point
+ 
+\end_layout
+
+\begin_layout Itemize
+Choose the altitude of all the circle point then number of number of circles
+ and if you wand to rotate clock wise or anti-clock wise
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/dialog box #4.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dialog box #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The result will be like this
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #4.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Make spline path 
+\end_layout
+
+\begin_layout Itemize
+Go to menu bar and Click on 
+\family typewriter
+Options
+\family default
+ then choose 
+\family typewriter
+SurveyBox
+\family default
+ or 
+\family typewriter
+SurveyCircle
+\family default
+ according to the shape of the area of interest from the drop-down menu
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #7.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enter Spline path parameters
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #8.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The result is
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #9.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #7
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Delete last point
+\end_layout
+
+\begin_layout Itemize
+Go to menu bar and Click on 
+\family typewriter
+Options
+\family default
+ then choose 
+\family typewriter
+DeleteLastPoint
+\family default
+ from the drop-down menu 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #7.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Delete all points
+\end_layout
+
+\begin_layout Itemize
+Go to menu bar and Click on 
+\family typewriter
+Options
+\family default
+ then choose 
+\family typewriter
+DeleteAll 
+\family default
+from the drop-down menu 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #7.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Refresh maps
+\end_layout
+
+\begin_layout Itemize
+To refresh maps just click on 
+\family typewriter
+GoogleEarth
+\family default
+ then choose 
+\family typewriter
+Refresh 
+\family default
+from the drop-down menu 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #5.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #8
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Close the program
+\end_layout
+
+\begin_layout Itemize
+To close the program just click on 
+\family typewriter
+GoogleEarth
+\family default
+ then choose 
+\family typewriter
+Exit 
+\family default
+from the drop-down menu 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/Week 7/GS #5.PNG
+	lyxscale 50
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Screen shoot #8
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
