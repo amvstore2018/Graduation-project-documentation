@@ -1,0 +1,11 @@
+
+ans =
+
+  Columns 1 through 3
+
+        1500         -35         -45
+
+  Column 4
+
+         -40
+

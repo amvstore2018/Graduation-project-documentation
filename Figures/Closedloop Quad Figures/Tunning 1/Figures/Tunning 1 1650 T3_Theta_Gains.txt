@@ -1,0 +1,10 @@
+Outer loop gains
+ans =
+
+     3     2     0
+
+Inner loop gains
+ans =
+
+    0.9000         0    0.0600
+

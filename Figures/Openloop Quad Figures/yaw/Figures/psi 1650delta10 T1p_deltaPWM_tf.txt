@@ -1,0 +1,9 @@
+
+Tf_p =
+ 
+    10
+  -------
+  s + 1.4
+ 
+Continuous-time transfer function.
+

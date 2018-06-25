@@ -1,0 +1,9 @@
+
+Tf_roll =
+ 
+      50
+  -----------
+  s^2 + 1.4 s
+ 
+Continuous-time transfer function.
+

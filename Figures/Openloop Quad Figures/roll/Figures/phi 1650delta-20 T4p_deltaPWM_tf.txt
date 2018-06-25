@@ -1,0 +1,9 @@
+
+Tf_p =
+ 
+           120000 s
+  --------------------------
+  300 s^2 + 800 s + 1.032e04
+ 
+Continuous-time transfer function.
+
