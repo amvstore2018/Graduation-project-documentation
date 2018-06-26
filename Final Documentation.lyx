@@ -4079,7 +4079,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 2/RTL mode.emf
+	filename Figures/Week 2/RTL mode.eps
 	lyxscale 50
 	width 7cm
 
@@ -4145,7 +4145,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 2/Auto mode.emf
+	filename Figures/Week 2/Auto mode.eps
 	lyxscale 50
 	width 7cm
 
@@ -4197,7 +4197,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 2/Guided mode.emf
+	filename Figures/Week 2/Guided mode.eps
 	lyxscale 50
 	width 7cm
 
@@ -9234,7 +9234,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 5/Connections 1.emf
+	filename Figures/Week 5/Connections 1.eps
 	lyxscale 50
 	width 15cm
 
@@ -9270,7 +9270,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 5/Connections 2.emf
+	filename Figures/Week 5/Connections 2.eps
 	lyxscale 50
 	width 15cm
 
@@ -9306,7 +9306,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 5/Connections 3.emf
+	filename Figures/Week 5/Connections 3.eps
 	lyxscale 50
 	width 15cm
 
@@ -11561,7 +11561,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta10 T1_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta10 T1_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -11605,7 +11605,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta10 T7_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta10 T7_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -11649,7 +11649,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta-10 T2_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta-10 T2_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -11693,7 +11693,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta-10 T8_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta-10 T8_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -11737,7 +11737,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta20 T3_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta20 T3_States.eps
 	lyxscale 50
 	width 15cm
 
@@ -11781,7 +11781,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta20 T9_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta20 T9_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -11825,7 +11825,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta-20 T4_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta-20 T4_States.eps
 	lyxscale 50
 	width 15cm
 
@@ -11869,7 +11869,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta-20 T10_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta-20 T10_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -11913,7 +11913,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta30 T5_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta30 T5_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -11957,7 +11957,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta30 T11_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta30 T11_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -12001,7 +12001,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta-30 T6_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1650delta-30 T6_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -12045,7 +12045,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta-30 T12_States.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi 1700delta-30 T12_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -12135,7 +12135,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi Positive Equivelant_P_response.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi Positive Equivelant_P_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -12175,7 +12175,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi Negative Equivelant_P_response.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi Negative Equivelant_P_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -12215,7 +12215,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi Positive Equivelant_roll_response.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi Positive Equivelant_roll_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -12255,7 +12255,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/roll/Figures/phi Negative Equivelant_roll_response.emf
+	filename Figures/Openloop Quad Figures/roll/Figures/phi Negative Equivelant_roll_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -12824,7 +12824,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta10 T1_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta10 T1_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -12868,7 +12868,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta10 T7_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta10 T7_States.eps
 	lyxscale 50
 	width 15cm
 
@@ -12912,7 +12912,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta-10 T2_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta-10 T2_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -12956,7 +12956,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta-10 T8_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta-10 T8_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13000,7 +13000,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta20 T3_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta20 T3_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13044,7 +13044,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta20 T9_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta20 T9_States.eps
 	lyxscale 50
 	width 15cm
 
@@ -13088,7 +13088,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta-20 T4_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta-20 T4_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13132,7 +13132,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta-20 T10_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta-20 T10_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13176,7 +13176,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta30 T5_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta30 T5_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13220,7 +13220,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta30 T11_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta30 T11_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13264,7 +13264,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta-30 T6_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1650delta-30 T6_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13308,7 +13308,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta-30 T12_States.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta 1700delta-30 T12_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -13356,7 +13356,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta Positive Equivelant_q_response.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta Positive Equivelant_q_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -13396,7 +13396,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta Negative Equivelant_q_response.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta Negative Equivelant_q_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -13436,7 +13436,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta Positive Equivelant_Pitch_response.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta Positive Equivelant_Pitch_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -13476,7 +13476,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/pitch/Figures/theta Negative Equivelant_Pitch_response.emf
+	filename Figures/Openloop Quad Figures/pitch/Figures/theta Negative Equivelant_Pitch_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -14045,7 +14045,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta10 T1_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta10 T1_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14089,7 +14089,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta10 T7_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta10 T7_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14133,7 +14133,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta-10 T2_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta-10 T2_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14177,7 +14177,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta-10 T8_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta-10 T8_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14221,7 +14221,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta20 T3_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta20 T3_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14265,7 +14265,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta20 T9_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta20 T9_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14309,7 +14309,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta-20 T4_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta-20 T4_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14353,7 +14353,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta-20 T10_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta-20 T10_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14397,7 +14397,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta30 T5_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta30 T5_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14441,7 +14441,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta30 T11_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta30 T11_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14485,7 +14485,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta-30 T6_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1650delta-30 T6_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14529,7 +14529,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta-30 T13_States.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi 1700delta-30 T13_States.eps
 	lyxscale 50
 	width 17cm
 
@@ -14577,7 +14577,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi Positive Equivelant_r_response.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi Positive Equivelant_r_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -14617,7 +14617,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi Negative Equivelant_r_response.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi Negative Equivelant_r_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -14657,7 +14657,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi Positive Equivelant_psi_response.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi Positive Equivelant_psi_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -14697,7 +14697,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Openloop Quad Figures/yaw/Figures/psi Negative Equivelant_psi_response.emf
+	filename Figures/Openloop Quad Figures/yaw/Figures/psi Negative Equivelant_psi_response.eps
 	lyxscale 50
 	width 17cm
 
@@ -16754,7 +16754,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta 10 T1/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta 10 T1/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -16798,7 +16798,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta -10 T2/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta -10 T2/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -16842,7 +16842,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta 20 T3/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta 20 T3/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -16886,7 +16886,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta -20 T4/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta -20 T4/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -16930,7 +16930,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta 30 T5/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta 30 T5/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -16974,7 +16974,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta -30 T6/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1650 delta -30 T6/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17022,7 +17022,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta 10 T1/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta 10 T1/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17066,7 +17066,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta -10 T2/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta -10 T2/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17110,7 +17110,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta 20 T3/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta 20 T3/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17154,7 +17154,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta -20 T4/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta -20 T4/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17198,7 +17198,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta 30 T5/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta 30 T5/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17242,7 +17242,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta -30 T6/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1650 delta -30 T6/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17290,7 +17290,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta 10 T1/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta 10 T1/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17334,7 +17334,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta -10 T2/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta -10 T2/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17378,7 +17378,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta 20 T3/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta 20 T3/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17422,7 +17422,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta -20 T4/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta -20 T4/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17466,7 +17466,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta 30 T5/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta 30 T5/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17510,7 +17510,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta -30 T6/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1650 delta -30 T6/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17646,7 +17646,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta 10 T7/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta 10 T7/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17690,7 +17690,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta -10 T8/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta -10 T8/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17734,7 +17734,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta 20 T9/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta 20 T9/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17778,7 +17778,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta -20 T10/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta -20 T10/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17822,7 +17822,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta 30 T11/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta 30 T11/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17866,7 +17866,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta -30 T12/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/phi 1700 delta -30 T12/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17914,7 +17914,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta 10 T7/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta 10 T7/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -17958,7 +17958,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta -10 T8/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta -10 T8/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18002,7 +18002,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta 20 T9/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta 20 T9/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18046,7 +18046,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta -20 T10/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta -20 T10/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18090,7 +18090,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta 30 T11/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta 30 T11/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18134,7 +18134,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta -30 T12/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/theta 1700 delta -30 T12/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18182,7 +18182,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 10 T7/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 10 T7/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18226,7 +18226,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta -10 T8/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta -10 T8/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18270,7 +18270,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 20 T9/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 20 T9/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18314,7 +18314,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta -20 T10/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta -20 T10/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18358,7 +18358,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 30 T11/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 30 T11/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18402,7 +18402,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 30 T12/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta 30 T12/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -18446,7 +18446,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta -30 T13/1.emf
+	filename Figures/Vehicles Figures/Quad/NonLinearResponse/psi 1700 delta -30 T13/1.eps
 	lyxscale 50
 	width 17cm
 
@@ -19294,7 +19294,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_0_10_0_10/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_0_10_0_10/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -19394,7 +19394,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_9_10_10_10/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_9_10_10_10/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -19494,7 +19494,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_10_0_10_0/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_10_0_10_0/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -19594,7 +19594,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_10_9_10_10/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1650PWMs_10_9_10_10/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -19694,7 +19694,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_0_10_0_10/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_0_10_0_10/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -19794,7 +19794,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_9_10_10_10/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_9_10_10_10/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -19894,7 +19894,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_10_0_10_0/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_10_0_10_0/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -19994,7 +19994,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_10_9_10_10/1.emf
+	filename Figures/Vehicles Figures/Quad/Compare linear with the NonLinear/NomThrust1700PWMs_10_9_10_10/1.eps
 	lyxscale 50
 	width 20cm
 
@@ -21179,7 +21179,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/z_deltaCol.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/z_deltaCol.eps
 	lyxscale 50
 	width 15cm
 
@@ -21220,7 +21220,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650p_deltaLat.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650p_deltaLat.eps
 	lyxscale 50
 	width 15cm
 
@@ -21256,7 +21256,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650phi_p_deltaLat.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650phi_p_deltaLat.eps
 	lyxscale 50
 	width 15cm
 
@@ -21295,7 +21295,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650q_deltaLong.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650q_deltaLong.eps
 	lyxscale 50
 	width 15cm
 
@@ -21331,7 +21331,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650theta_q_deltaLong.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650theta_q_deltaLong.eps
 	lyxscale 50
 	width 15cm
 
@@ -21370,7 +21370,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650r_deltaPend.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650r_deltaPend.eps
 	lyxscale 50
 	width 15cm
 
@@ -21406,7 +21406,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650psi_r_deltaPend.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1650psi_r_deltaPend.eps
 	lyxscale 50
 	width 15cm
 
@@ -21450,7 +21450,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700p_deltaLat.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700p_deltaLat.eps
 	lyxscale 50
 	width 15cm
 
@@ -21486,7 +21486,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700phi_p_deltaLat.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700phi_p_deltaLat.eps
 	lyxscale 50
 	width 15cm
 
@@ -21525,7 +21525,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700q_deltaLong.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700q_deltaLong.eps
 	lyxscale 50
 	width 15cm
 
@@ -21561,7 +21561,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700theta_q_deltaLong.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700theta_q_deltaLong.eps
 	lyxscale 50
 	width 15cm
 
@@ -21600,7 +21600,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700r_deltaPend.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700r_deltaPend.eps
 	lyxscale 50
 	width 15cm
 
@@ -21636,7 +21636,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700psi_r_deltaPend.emf
+	filename Figures/Vehicles Figures/Quad/Control PID/NomThrust1700psi_r_deltaPend.eps
 	lyxscale 50
 	width 15cm
 
@@ -21683,7 +21683,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_0_1_1.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_0_1_1.eps
 	lyxscale 50
 	width 20cm
 
@@ -21720,7 +21720,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_0_1_2.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_0_1_2.eps
 	lyxscale 50
 	width 20cm
 
@@ -21765,12 +21765,12 @@ Required
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_0_0_0_1.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_0_0_0_1.eps
 	lyxscale 50
 	width 20cm
 
@@ -21807,7 +21807,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_0_0_0_2.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_0_0_0_2.eps
 	lyxscale 50
 	width 20cm
 
@@ -21847,12 +21847,12 @@ Required
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_30_0_1.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_30_0_1.eps
 	lyxscale 50
 	width 20cm
 
@@ -21884,12 +21884,12 @@ Response at Nom.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_30_0_2.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_0_0_30_0_2.eps
 	lyxscale 50
 	width 20cm
 
@@ -21929,12 +21929,12 @@ Required
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_30_30_0_1.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_30_30_0_1.eps
 	lyxscale 50
 	width 20cm
 
@@ -21966,12 +21966,12 @@ Response at Nom.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_30_30_0_2.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1650_30_30_30_0_2.eps
 	lyxscale 50
 	width 20cm
 
@@ -22021,7 +22021,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_0_0_0_1.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_0_0_0_1.eps
 	lyxscale 50
 	width 20cm
 
@@ -22058,7 +22058,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_0_0_0_2.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_0_0_0_2.eps
 	lyxscale 50
 	width 20cm
 
@@ -22103,7 +22103,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_0_0_30_0_1.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_0_0_30_0_1.eps
 	lyxscale 50
 	width 20cm
 
@@ -22140,7 +22140,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_0_0_30_0_2.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_0_0_30_0_2.eps
 	lyxscale 50
 	width 20cm
 
@@ -22185,7 +22185,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_30_30_0_1.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_30_30_0_1.eps
 	lyxscale 50
 	width 20cm
 
@@ -22222,7 +22222,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_30_30_0_2.emf
+	filename Figures/Vehicles Figures/Quad/Non. Control/NomThrust1700_30_30_30_0_2.eps
 	lyxscale 50
 	width 20cm
 
@@ -22273,7 +22273,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22313,7 +22313,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_-10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_-10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22353,7 +22353,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22393,7 +22393,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_-10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_-10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22433,7 +22433,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_0_90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_0_90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22473,7 +22473,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_0_-90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1650_0_0_-90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22513,7 +22513,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22553,7 +22553,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_-10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_-10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22593,7 +22593,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22633,7 +22633,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_-10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_-10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22673,7 +22673,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_0_90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_0_90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22713,7 +22713,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_0_-90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 1/NomThrust1700_0_0_-90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22763,7 +22763,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22803,7 +22803,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_-10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_-10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22843,7 +22843,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22883,7 +22883,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_-10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_-10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22923,7 +22923,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_0_90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_0_90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -22963,7 +22963,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_0_-90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1650_0_0_-90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23003,7 +23003,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23043,7 +23043,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_-10_0_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_-10_0_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23083,7 +23083,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23123,7 +23123,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_-10_0_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_-10_0_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23163,7 +23163,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_0_90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_0_90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23203,7 +23203,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_0_-90_States.emf
+	filename Figures/Vehicles Figures/Quad/Compare with the Actual/Test 2/NomThrust1700_0_0_-90_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23247,7 +23247,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T1_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T1_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23287,7 +23287,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T2_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T2_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23327,7 +23327,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T3_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T3_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23367,7 +23367,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T4_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T4_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23407,7 +23407,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T5_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T5_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23447,7 +23447,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T6_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1650 T6_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23487,7 +23487,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T7_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T7_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23527,7 +23527,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T8_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T8_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23567,7 +23567,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T9_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T9_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23607,7 +23607,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T10_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T10_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23647,7 +23647,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T11_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T11_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -23687,7 +23687,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T12_States.emf
+	filename Figures/Closedloop Quad Figures/Tunning 1/Figures/Tunning 1 1700 T12_States.eps
 	lyxscale 50
 	width 20cm
 
@@ -25821,13 +25821,13 @@ Many Models have been used for the Aerodynamic Analysis, most of them were
  version of it.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 The first Solid Model was inserted with the rotor blades and all holes left
  open as it is in the original manufactured Model, as in the following figure.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
- 
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
@@ -25869,7 +25869,11 @@ First Model
 
 \end_inset
 
- we couldn't create the Mesh for this Model, it was inserted as 78 Parts,
+ 
+\end_layout
+
+\begin_layout Standard
+We couldn't create the Mesh for this Model, it was inserted as 78 Parts,
  where we should cut the 78 parts from the control volume using Boolean
  
 \begin_inset Formula $\rightarrow$
@@ -25879,21 +25883,20 @@ cut material , which is a very exhausting process and didn't work well either,
  so we transferred into Model 2.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 A special model were made for the analysis, A model that didn't contain
  the rotor blades, also it's mainly a skin, for the whole Drone Body, we
  have closed every small orifices and removed tolerance that may affect
  the mesh quality.
- 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -25918,7 +25921,11 @@ Second Model
 
 \end_inset
 
- the control volume was created as a box that has edge length of 4 meters
+ 
+\end_layout
+
+\begin_layout Standard
+The control volume was created as a box that has edge length of 4 meters
  measured from the c.g.
  of the drone.
  That was created and combined using SolidWorks in order to eliminate the
@@ -25928,14 +25935,14 @@ import
 \series default
  settings.
  which has greatly affected the creation of the mesh as we will see.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -25960,10 +25967,23 @@ control volume
 
 \end_inset
 
- - Mesh:
-\begin_inset Newline newline
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Mesh:
+\end_layout
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Itemize
 The Mesh creation was too primitive, that it was just a trial.
  We didn't use any advanced size function, as we will be using sphere of
  influence around the Drone body.
@@ -25971,14 +25991,14 @@ The Mesh creation was too primitive, that it was just a trial.
  of 2 meters has enabled us cover all the Drone body and more mesh cells!
  Also choosing the element size of 0.007 m was the least we could choose,
  due to computational limitations.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26007,10 +26027,14 @@ Sphere of influence
 \end_inset
 
  
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26035,18 +26059,22 @@ Sphere of influence in mesh
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 The mesh generated was too coarse, as we can see in the following pictures.
  Although it was 240,593 elements.
  which may take days to be solved.
  but we made sure that we kept the skewness less than 0.9.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26070,11 +26098,15 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26103,11 +26135,15 @@ Mesh
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26134,7 +26170,7 @@ Section plane in Mesh
 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 A much better model was generated to be used on a super computer, The model
  Geometry is as the same as the previous one.
  but a different technique was used, and that will be illustrated later.
@@ -26150,15 +26186,15 @@ A much better model was generated to be used on a super computer, The model
 
 \series default
  The mesh is as in the following pictures.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26190,10 +26226,11 @@ status open
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26225,11 +26262,12 @@ A section plane for the mesh is as in the following picture,
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26272,15 +26310,15 @@ Geometry
 The first Model is created using import setting in Ansys design modeler,
  we inserted the combined part as a one-part body.
  as follows
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26434,10 +26472,11 @@ The final mesh settings is as follows, Skewness =
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26465,11 +26504,12 @@ status open
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26500,10 +26540,11 @@ view from Y-Z plane for First Model
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26541,13 +26582,24 @@ Model
 \begin_layout Standard
 The model chosen for this case is K-omega shear stress transport model,
  an brief explanation about that model can be found in Appendix A
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+??
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26603,11 +26655,12 @@ Viscosity= 1.789e-5
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26736,15 +26789,14 @@ velocity inlet
 \end_inset
 
  , with the various velocities mentioned above.
- 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26774,10 +26826,11 @@ Boundary conditions
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26873,10 +26926,11 @@ Specific Dissipation Rate
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -26924,15 +26978,15 @@ Geomtery
 The Second Model is created using import setting in Ansys design modeler,
  we inserted the combined part as a one-part body.
  as follows
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27096,12 +27150,13 @@ The final mesh settings is as follows, Skewness =
 15,093,577
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27133,10 +27188,11 @@ status open
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27168,11 +27224,12 @@ A section plane for the mesh is as in the following picture,
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27365,7 +27422,7 @@ Buildings: Flying higher reduces the artifacts at the building edges, but
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27417,7 +27474,7 @@ For a given focal length and a given image rate, increasing the altitude
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27504,7 +27561,7 @@ Examples of various ground resolutions and considerations:
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27547,7 +27604,7 @@ Meter resolution
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27592,7 +27649,7 @@ status open
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27635,7 +27692,7 @@ status open
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27679,7 +27736,7 @@ status open
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27809,7 +27866,7 @@ Example:
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -27916,7 +27973,7 @@ The image shooting rate to achieve a given frontal overlap depends on the
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -28023,7 +28080,7 @@ Camera oriented with the sensor width (long dimension) perpendicular to
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -28118,7 +28175,7 @@ Camera oriented with the sensor width (long dimension) parallel to the flight
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -28291,7 +28348,7 @@ Program Sequence Diagram
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -29609,7 +29666,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Week 7/AOI.svg
+	filename Figures/Week 7/AOI.eps
 	lyxscale 50
 	width 7cm
 
@@ -29861,7 +29918,7 @@ Example
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -29897,7 +29954,7 @@ Front panel #1
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -29933,7 +29990,7 @@ Block diagram #1
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -29969,7 +30026,7 @@ Front panel #2
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30029,7 +30086,7 @@ our collage longitude and latitude)
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30077,7 +30134,7 @@ Click Create Path button
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30121,7 +30178,7 @@ Enter your altitude at that point
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30166,7 +30223,7 @@ Click on the right mouse to specify different way points and each time you
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30232,7 +30289,7 @@ Click Modify way Point button
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30273,7 +30330,7 @@ The way point will begin to move with the mouse until you click on the right
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30313,7 +30370,7 @@ Enter your new altitude at that point
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30354,7 +30411,7 @@ That's now your new point have been added to the way point array successfully
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30406,7 +30463,7 @@ DrawCircle
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30452,7 +30509,7 @@ Choose the altitude of all the circle point then number of number of circles
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30492,7 +30549,7 @@ The result will be like this
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30549,7 +30606,7 @@ SurveyCircle
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30589,7 +30646,7 @@ Enter Spline path parameters
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30629,7 +30686,7 @@ The result is
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30681,7 +30738,7 @@ DeleteLastPoint
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30733,7 +30790,7 @@ from the drop-down menu
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30785,7 +30842,7 @@ from the drop-down menu
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30837,7 +30894,7 @@ from the drop-down menu
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -30910,7 +30967,7 @@ Flow Chart
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -31184,12 +31241,12 @@ b , l: Geometry related parameters.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Appendix/bifiller pendulum #1.emf
+	filename Figures/Appendix/bifiller pendulum #1.eps
 	width 10cm
 
 \end_inset
@@ -31267,12 +31324,12 @@ After that, it is easy to estimate the periodic time from its definition
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Appendix/bifiller pendulum #2.emf
+	filename Figures/Appendix/bifiller pendulum #2.eps
 	width 10cm
 
 \end_inset
@@ -31329,7 +31386,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Appendix/box.gif
+	filename Figures/Appendix/box.png
 
 \end_inset
 
@@ -32487,7 +32544,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Testing/loadcell #3.emf
+	filename Figures/Testing/loadcell #3.eps
 	lyxscale 50
 	width 15cm
 
@@ -32531,7 +32588,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motor Figures using  loadcell/Motor 1/Figures/1.emf
+	filename Figures/Motors Figures (Load Cell)/Motor 1/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -32571,7 +32628,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motor Figures using  loadcell/Motor 2/Figures/1.emf
+	filename Figures/Motors Figures (Load Cell)/Motor 2/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -32611,7 +32668,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motor Figures using  loadcell/Motor 3/Figures/1.emf
+	filename Figures/Motors Figures (Load Cell)/Motor 3/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -32651,7 +32708,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motor Figures using  loadcell/Motor 4/Figures/1.emf
+	filename Figures/Motors Figures (Load Cell)/Motor 4/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -32748,7 +32805,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motors Figures/Motor 1/Figures/1.emf
+	filename Figures/Motors Figures/Motor 1/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -32788,7 +32845,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motors Figures/Motor 2/Figures/1.emf
+	filename Figures/Motors Figures/Motor 2/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -32828,7 +32885,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motors Figures/Motor 3/Figures/1.emf
+	filename Figures/Motors Figures/Motor 3/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -32868,7 +32925,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Motors Figures/Motor 4/Figures/1.emf
+	filename Figures/Motors Figures/Motor 4/1.eps
 	lyxscale 50
 	width 15cm
 
@@ -33308,7 +33365,7 @@ Comparison
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
