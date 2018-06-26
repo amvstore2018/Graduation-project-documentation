@@ -9620,7 +9620,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Documentation/Report 5-9-10-2017/mk8-3500Agrar.jpg
+	filename Figures/Week 6/mk8-3500Agrar.jpg
 	lyxscale 50
 	width 10cm
 
@@ -10686,12 +10686,12 @@ Collecting a data for this kind of a problem is hard to get without searching
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Figures/Sizing/Sizing #3.svg
+	filename Figures/Sizing/Sizing #3.eps
 	width 17cm
 
 \end_inset
@@ -25837,7 +25837,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/1stmodel.png
+	filename Figures/Introduction mesh and models/1stmodel.png
 	lyxscale 70
 	scale 70
 
@@ -25849,7 +25849,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/1stmodel2.PNG
+	filename Figures/Introduction mesh and models/1stmodel2.PNG
 	lyxscale 70
 	scale 70
 
@@ -25901,7 +25901,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/2ndmodel.png
+	filename Figures/Introduction mesh and models/2ndmodel.png
 	lyxscale 60
 	scale 60
 
@@ -25947,7 +25947,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/controlvolume.png
+	filename Figures/Introduction mesh and models/controlvolume.png
 	lyxscale 60
 	scale 60
 
@@ -26003,7 +26003,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/sphere1.PNG
+	filename Figures/Introduction mesh and models/sphere1.PNG
 	lyxscale 90
 	scale 90
 
@@ -26039,7 +26039,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/sphere2.PNG
+	filename Figures/Introduction mesh and models/sphere2.PNG
 	lyxscale 70
 	scale 70
 
@@ -26079,7 +26079,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/mesh1.PNG
+	filename Figures/Introduction mesh and models/mesh1.PNG
 
 \end_inset
 
@@ -26111,7 +26111,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/mesh3.PNG
+	filename Figures/Introduction mesh and models/mesh3.PNG
 	width 10cm
 
 \end_inset
@@ -26148,7 +26148,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/Introduction mesh and models/mesh2.PNG
+	filename Figures/Introduction mesh and models/mesh2.PNG
 	width 12cm
 
 \end_inset
@@ -26199,7 +26199,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/pics mesh v=0.1/mesh3.PNG
+	filename Figures/pics mesh v=0.1/mesh3.PNG
 	width 14cm
 
 \end_inset
@@ -26235,7 +26235,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/pics mesh v=0.1/mesh1.PNG
+	filename Figures/pics mesh v=0.1/mesh1.PNG
 	width 15cm
 
 \end_inset
@@ -26272,7 +26272,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/pics mesh v=0.1/section plane.PNG
+	filename Figures/pics mesh v=0.1/section plane.PNG
 	width 15cm
 
 \end_inset
@@ -26323,7 +26323,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/1st model/geom1.eps
+	filename Figures/1st model/geom1.eps
 	width 15cm
 
 \end_inset
@@ -26481,7 +26481,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/1st model/shakllmesh.PNG
+	filename Figures/1st model/shakllmesh.PNG
 	width 10cm
 
 \end_inset
@@ -26514,7 +26514,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/1st model/ssectionagain.PNG
+	filename Figures/1st model/ssectionagain.PNG
 	width 12cm
 
 \end_inset
@@ -26549,7 +26549,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/1st model/sectionplane.PNG
+	filename Figures/1st model/sectionplane.PNG
 	width 12cm
 
 \end_inset
@@ -26604,7 +26604,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/setup/model.PNG
+	filename Figures/setup/model.PNG
 	lyxscale 70
 	scale 70
 
@@ -26665,7 +26665,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/setup/air.PNG
+	filename Figures/setup/air.PNG
 	width 12cm
 
 \end_inset
@@ -26801,7 +26801,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/setup/kolo.eps
+	filename Figures/setup/kolo.eps
 	width 10cm
 	scaleBeforeRotation
 	rotateAngle -90
@@ -26835,7 +26835,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/setup/inlet and outlet.eps
+	filename Figures/setup/inlet and outlet.eps
 	width 10cm
 	scaleBeforeRotation
 	rotateAngle -90
@@ -26935,7 +26935,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/setup/scheme.PNG
+	filename Figures/setup/scheme.PNG
 	lyxscale 65
 	scale 65
 
@@ -26991,7 +26991,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/1st model/geom1.eps
+	filename Figures/1st model/geom1.eps
 	width 15cm
 
 \end_inset
@@ -27161,7 +27161,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/pics mesh v=0.1/mesh3.PNG
+	filename Figures/pics mesh v=0.1/mesh3.PNG
 	width 14cm
 
 \end_inset
@@ -27197,7 +27197,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/pics mesh v=0.1/mesh1.PNG
+	filename Figures/pics mesh v=0.1/mesh1.PNG
 	width 15cm
 
 \end_inset
@@ -27234,7 +27234,7 @@ status collapsed
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/Graduation project/Graduation-project-documentation/Figures/pics mesh v=0.1/section plane.PNG
+	filename Figures/pics mesh v=0.1/section plane.PNG
 	width 15cm
 
 \end_inset
@@ -31012,7 +31012,7 @@ Mat-lab code Implementation
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
-filename "D:/Graduation project/Matlab-project-files/Non linear simulation/RK4.m"
+filename "Codes/Numerical integration/RK4.m"
 lstparams "language=Matlab,keywordstyle={\\color{blue}},commentstyle={\\color{magenta}\\itshape},emphstyle={\\color{red}},basicstyle={\\ttfamily},stringstyle={\\color{green}},identifierstyle={\\color{cyan}},label={Runge Kutta 4th order}"
 
 \end_inset
@@ -31096,7 +31096,7 @@ y_{2}=y'
 \[
 \therefore\begin{array}{c}
 y_{1}'=y_{2}\\
-y_{2}'=\frac{2y_{2}}{t}-\frac{2y_{1}}{t^{2}}+t\log\left(t\right)
+y_{2}'=\frac{2y_{2}}{t}-\frac{2y_{1}}{t^{2}}+t*\log\left(t\right)
 \end{array}
 \]
 
@@ -31112,7 +31112,7 @@ Function Mat-lab code
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
-filename "D:/Graduation project/Matlab-project-files/Numerical integration/f.m"
+filename "Codes/Numerical integration/f.m"
 lstparams "language=Matlab,keywordstyle={\\color{blue}},commentstyle={\\color{magenta}\\itshape},emphstyle={\\color{red}},basicstyle={\\ttfamily},stringstyle={\\color{green}},identifierstyle={\\color{cyan}},label={system of first order differianl equations}"
 
 \end_inset
@@ -31127,7 +31127,7 @@ Testing Runge-kutta Mat-lab code
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
-filename "D:/Graduation project/Matlab-project-files/Numerical integration/test_runge_kutta.m"
+filename "Codes/Numerical integration/test_runge_kutta.m"
 lstparams "language=Matlab,keywordstyle={\\color{blue}},commentstyle={\\color{magenta}\\itshape},emphstyle={\\color{red}},basicstyle={\\ttfamily},stringstyle={\\color{green}},identifierstyle={\\color{cyan}},label={test_runge_kutta}"
 
 \end_inset
