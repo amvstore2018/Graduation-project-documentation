@@ -27296,10 +27296,6 @@ Forward Flight Mode Analysis
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "References/References"
@@ -27332,7 +27328,7 @@ There are some definitions we should be familiar with when working with
 \end_layout
 
 \begin_layout Subparagraph
-Ground Sampling Distance (GSD)
+Ground Sampling Distance (GSD) 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Ground_Sampling_Distance"
@@ -31119,7 +31115,7 @@ y_{2}=y'
 \[
 \therefore\begin{array}{c}
 y_{1}'=y_{2}\\
-y_{2}'=\frac{2y_{2}}{t}-\frac{2y_{1}}{t^{2}}+t\log\left(t\right)
+y_{2}'=\frac{2y_{2}}{t}-\frac{2y_{1}}{t^{2}}+t*\log\left(t\right)
 \end{array}
 \]
 

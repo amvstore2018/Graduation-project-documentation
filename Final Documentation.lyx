@@ -31,8 +31,6 @@
    {\normalfont\normalsize\bfseries}}
 \pagestyle{plain}
 \setcounter{tocdepth}{2}
-
-\renewcommand{\bibname}{References}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
